@@ -1,0 +1,524 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* SleepTrackerAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* SleepTrackerAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		1F14F8D0134AE183005F5102 /* DefaultCellViewBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F14F8CF134AE183005F5102 /* DefaultCellViewBackground.png */; };
+		1F1B475113458BFD004BB6B2 /* DataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F1B474F13458BFD004BB6B2 /* DataViewController.m */; };
+		1F1B475213458BFD004BB6B2 /* DataViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1F1B475013458BFD004BB6B2 /* DataViewController.xib */; };
+		1F1C4B7B1323341B00BE0371 /* Robby.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1F1C4B7A1323341B00BE0371 /* Robby.wav */; };
+		1F1E14351312242F008B0F82 /* MusicPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F1E14341312242F008B0F82 /* MusicPlayer.m */; };
+		1F1F34C6134E4B72003C3AEC /* ManualTimesNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F1F34C5134E4B72003C3AEC /* ManualTimesNavigationViewController.m */; };
+		1F1F34CA134E4C7E003C3AEC /* ManualTimesNavigationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1F1F34C9134E4C7E003C3AEC /* ManualTimesNavigationViewController.xib */; };
+		1F28FBDD137133AA00A0A845 /* CornerBottomLeft.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F28FBD9137133A900A0A845 /* CornerBottomLeft.png */; };
+		1F28FBDE137133AA00A0A845 /* CornerBottomRight.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F28FBDA137133A900A0A845 /* CornerBottomRight.png */; };
+		1F28FBDF137133AA00A0A845 /* CornerTopLeft.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F28FBDB137133AA00A0A845 /* CornerTopLeft.png */; };
+		1F28FBE0137133AA00A0A845 /* CornerTopRight.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F28FBDC137133AA00A0A845 /* CornerTopRight.png */; };
+		1F2A7C291380E061002E4993 /* BackgroundHome.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F2A7C281380E061002E4993 /* BackgroundHome.png */; };
+		1F2A7C2B1380FB39002E4993 /* DeleteButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F2A7C2A1380FB39002E4993 /* DeleteButton.png */; };
+		1F3E3B5A13481130000F8E7A /* DefaultCellView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F3E3B5913481130000F8E7A /* DefaultCellView.m */; };
+		1F3E3B5C1348116E000F8E7A /* DefaultCellView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1F3E3B5B1348116D000F8E7A /* DefaultCellView.xib */; };
+		1F3F54161347E57D00AE999D /* Stop_Button.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F3F54151347E57D00AE999D /* Stop_Button.png */; };
+		1F3F54181347E73600AE999D /* Start_Button.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F3F54171347E73600AE999D /* Start_Button.png */; };
+		1F3F541A1347E7BE00AE999D /* Gray_Button.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F3F54191347E7BE00AE999D /* Gray_Button.png */; };
+		1F4C7750134BE212002014BD /* alpha.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F4C774F134BE212002014BD /* alpha.png */; };
+		1F51BCB31329894F00EF36F8 /* SleepTrackerListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F51BCB11329894F00EF36F8 /* SleepTrackerListViewController.m */; };
+		1F51BCED13298E0600EF36F8 /* SleepTrackTimes.xcdatamodel in Sources */ = {isa = PBXBuildFile; fileRef = 1F51BCEC13298E0600EF36F8 /* SleepTrackTimes.xcdatamodel */; };
+		1F51BD2E1329F72900EF36F8 /* SleepDateObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F51BD2D1329F72900EF36F8 /* SleepDateObject.m */; };
+		1F51BD5D1329FCAF00EF36F8 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F51BD5C1329FCAF00EF36F8 /* CoreData.framework */; };
+		1F528C4B1371BDB8000D5968 /* Background.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F528C4A1371BDB8000D5968 /* Background.png */; };
+		1F6A369A13830C3B00D3D649 /* icon@2.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F6A369913830C3B00D3D649 /* icon@2.png */; };
+		1F6A369C13830FB900D3D649 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F6A369B13830FB900D3D649 /* icon.png */; };
+		1F6A36A013833FA700D3D649 /* TableViewReference.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F6A369E13833FA600D3D649 /* TableViewReference.m */; };
+		1F6A36A113833FA700D3D649 /* TableViewReference.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1F6A369F13833FA700D3D649 /* TableViewReference.xib */; };
+		1F6A36A413842DF300D3D649 /* Time.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F6A36A313842DF300D3D649 /* Time.m */; };
+		1F6A36A61384947200D3D649 /* GraphButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F6A36A51384947200D3D649 /* GraphButton.png */; };
+		1F6A5CB81352D06700F43B64 /* graph.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F6A5CB61352D06700F43B64 /* graph.png */; };
+		1F6A5CB91352D06700F43B64 /* home.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F6A5CB71352D06700F43B64 /* home.png */; };
+		1F7563CE1312263F00783A17 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F7563CD1312263F00783A17 /* MediaPlayer.framework */; };
+		1F787ADF131F5EF400939214 /* TrackedData.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F787ADE131F5EF400939214 /* TrackedData.m */; };
+		1F7D02E9132091C300D18F2B /* RapidFire.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1F7D02E8132091C300D18F2B /* RapidFire.wav */; };
+		1F80AD071382371A00D89335 /* AnalyzeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F80AD051382371900D89335 /* AnalyzeViewController.m */; };
+		1F80AD081382371A00D89335 /* AnalyzeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1F80AD061382371A00D89335 /* AnalyzeViewController.xib */; };
+		1F80AD0C138238E300D89335 /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F80AD0A138238E200D89335 /* SettingsViewController.m */; };
+		1F80AD0D138238E300D89335 /* SettingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1F80AD0B138238E300D89335 /* SettingsViewController.xib */; };
+		1F80AD131382471B00D89335 /* analyze.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F80AD121382471B00D89335 /* analyze.png */; };
+		1F80AD1513824B2400D89335 /* settings.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F80AD1413824B2400D89335 /* settings.png */; };
+		1FD30445130E202C00FDD5A5 /* DateAndTime.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FD30444130E202C00FDD5A5 /* DateAndTime.m */; };
+		1FD304D9130E428F00FDD5A5 /* Alarm.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FD304D8130E428F00FDD5A5 /* Alarm.m */; };
+		1FD304EA130E461300FDD5A5 /* AlarmSetterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FD304E8130E461300FDD5A5 /* AlarmSetterView.m */; };
+		1FD304EB130E461300FDD5A5 /* AlarmSetterView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1FD304E9130E461300FDD5A5 /* AlarmSetterView.xib */; };
+		1FE4FAC21312E0AF0099A61C /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FE4FAC11312E0AF0099A61C /* AudioToolbox.framework */; };
+		1FF207F9133909DA007B1516 /* GraphViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FF207F7133909D8007B1516 /* GraphViewController.m */; };
+		1FF207FA133909DA007B1516 /* GraphViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1FF207F8133909D9007B1516 /* GraphViewController.xib */; };
+		1FF207FD13390CA8007B1516 /* Graph.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FF207FC13390CA7007B1516 /* Graph.m */; };
+		1FF2080813395754007B1516 /* GraphView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FF2080713395751007B1516 /* GraphView.m */; };
+		28216C970DB411BC00E5133A /* ClockViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28216C960DB411BC00E5133A /* ClockViewController.m */; };
+		2840D7CE1179279E00D7F93C /* ClockView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2840D7CD1179279E00D7F93C /* ClockView.xib */; };
+		288765080DF74369002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765070DF74369002DB57D /* CoreGraphics.framework */; };
+		28AD73880D9D96C1002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD73870D9D96C1002E5188 /* MainWindow.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* SleepTrackerAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SleepTrackerAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* SleepTrackerAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SleepTrackerAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* Sleep Tracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sleep Tracker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		1F14F8CF134AE183005F5102 /* DefaultCellViewBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DefaultCellViewBackground.png; sourceTree = "<group>"; };
+		1F1B474E13458BFD004BB6B2 /* DataViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataViewController.h; sourceTree = "<group>"; };
+		1F1B474F13458BFD004BB6B2 /* DataViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataViewController.m; sourceTree = "<group>"; };
+		1F1B475013458BFD004BB6B2 /* DataViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = DataViewController.xib; path = Classes/DataViewController.xib; sourceTree = "<group>"; };
+		1F1C4B7A1323341B00BE0371 /* Robby.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Robby.wav; sourceTree = "<group>"; };
+		1F1E14331312242F008B0F82 /* MusicPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MusicPlayer.h; sourceTree = "<group>"; };
+		1F1E14341312242F008B0F82 /* MusicPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MusicPlayer.m; sourceTree = "<group>"; };
+		1F1F34C4134E4B72003C3AEC /* ManualTimesNavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ManualTimesNavigationViewController.h; path = ../SleepTracker.xcodeproj/ManualTimesNavigationViewController.h; sourceTree = "<group>"; };
+		1F1F34C5134E4B72003C3AEC /* ManualTimesNavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ManualTimesNavigationViewController.m; path = ../SleepTracker.xcodeproj/ManualTimesNavigationViewController.m; sourceTree = "<group>"; };
+		1F1F34C9134E4C7E003C3AEC /* ManualTimesNavigationViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ManualTimesNavigationViewController.xib; path = SleepTracker.xcodeproj/ManualTimesNavigationViewController.xib; sourceTree = "<group>"; };
+		1F28FBD9137133A900A0A845 /* CornerBottomLeft.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CornerBottomLeft.png; sourceTree = "<group>"; };
+		1F28FBDA137133A900A0A845 /* CornerBottomRight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CornerBottomRight.png; sourceTree = "<group>"; };
+		1F28FBDB137133AA00A0A845 /* CornerTopLeft.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CornerTopLeft.png; sourceTree = "<group>"; };
+		1F28FBDC137133AA00A0A845 /* CornerTopRight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CornerTopRight.png; sourceTree = "<group>"; };
+		1F2A7C281380E061002E4993 /* BackgroundHome.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BackgroundHome.png; sourceTree = "<group>"; };
+		1F2A7C2A1380FB39002E4993 /* DeleteButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DeleteButton.png; sourceTree = "<group>"; };
+		1F3E3B5813481130000F8E7A /* DefaultCellView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DefaultCellView.h; sourceTree = "<group>"; };
+		1F3E3B5913481130000F8E7A /* DefaultCellView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DefaultCellView.m; sourceTree = "<group>"; };
+		1F3E3B5B1348116D000F8E7A /* DefaultCellView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = DefaultCellView.xib; path = Classes/DefaultCellView.xib; sourceTree = "<group>"; };
+		1F3F54151347E57D00AE999D /* Stop_Button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Stop_Button.png; sourceTree = "<group>"; };
+		1F3F54171347E73600AE999D /* Start_Button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Start_Button.png; sourceTree = "<group>"; };
+		1F3F54191347E7BE00AE999D /* Gray_Button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Gray_Button.png; sourceTree = "<group>"; };
+		1F4C774F134BE212002014BD /* alpha.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = alpha.png; sourceTree = "<group>"; };
+		1F51BCB01329894F00EF36F8 /* SleepTrackerListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SleepTrackerListViewController.h; sourceTree = "<group>"; };
+		1F51BCB11329894F00EF36F8 /* SleepTrackerListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SleepTrackerListViewController.m; sourceTree = "<group>"; };
+		1F51BCEC13298E0600EF36F8 /* SleepTrackTimes.xcdatamodel */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.xcdatamodel; name = SleepTrackTimes.xcdatamodel; path = Classes/SleepTrackTimes.xcdatamodel; sourceTree = "<group>"; };
+		1F51BD2C1329F72900EF36F8 /* SleepDateObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SleepDateObject.h; sourceTree = "<group>"; };
+		1F51BD2D1329F72900EF36F8 /* SleepDateObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SleepDateObject.m; sourceTree = "<group>"; };
+		1F51BD5C1329FCAF00EF36F8 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		1F528C4A1371BDB8000D5968 /* Background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Background.png; sourceTree = "<group>"; };
+		1F6A369913830C3B00D3D649 /* icon@2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon@2.png"; sourceTree = "<group>"; };
+		1F6A369B13830FB900D3D649 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		1F6A369D13833FA600D3D649 /* TableViewReference.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewReference.h; sourceTree = "<group>"; };
+		1F6A369E13833FA600D3D649 /* TableViewReference.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewReference.m; sourceTree = "<group>"; };
+		1F6A369F13833FA700D3D649 /* TableViewReference.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = TableViewReference.xib; path = Classes/TableViewReference.xib; sourceTree = "<group>"; };
+		1F6A36A213842DF300D3D649 /* Time.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Time.h; sourceTree = "<group>"; };
+		1F6A36A313842DF300D3D649 /* Time.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Time.m; sourceTree = "<group>"; };
+		1F6A36A51384947200D3D649 /* GraphButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GraphButton.png; sourceTree = "<group>"; };
+		1F6A5CB61352D06700F43B64 /* graph.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = graph.png; sourceTree = "<group>"; };
+		1F6A5CB71352D06700F43B64 /* home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = home.png; sourceTree = "<group>"; };
+		1F7563CD1312263F00783A17 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		1F787ADD131F5EF400939214 /* TrackedData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrackedData.h; sourceTree = "<group>"; };
+		1F787ADE131F5EF400939214 /* TrackedData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TrackedData.m; sourceTree = "<group>"; };
+		1F7D02E8132091C300D18F2B /* RapidFire.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = RapidFire.wav; sourceTree = "<group>"; };
+		1F80AD041382371900D89335 /* AnalyzeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnalyzeViewController.h; sourceTree = "<group>"; };
+		1F80AD051382371900D89335 /* AnalyzeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnalyzeViewController.m; sourceTree = "<group>"; };
+		1F80AD061382371A00D89335 /* AnalyzeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = AnalyzeViewController.xib; path = Classes/AnalyzeViewController.xib; sourceTree = "<group>"; };
+		1F80AD09138238E200D89335 /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
+		1F80AD0A138238E200D89335 /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
+		1F80AD0B138238E300D89335 /* SettingsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SettingsViewController.xib; path = Classes/SettingsViewController.xib; sourceTree = "<group>"; };
+		1F80AD121382471B00D89335 /* analyze.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = analyze.png; sourceTree = "<group>"; };
+		1F80AD1413824B2400D89335 /* settings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = settings.png; sourceTree = "<group>"; };
+		1FD30443130E202C00FDD5A5 /* DateAndTime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DateAndTime.h; sourceTree = "<group>"; };
+		1FD30444130E202C00FDD5A5 /* DateAndTime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DateAndTime.m; sourceTree = "<group>"; };
+		1FD304D7130E428F00FDD5A5 /* Alarm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Alarm.h; sourceTree = "<group>"; };
+		1FD304D8130E428F00FDD5A5 /* Alarm.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Alarm.m; sourceTree = "<group>"; };
+		1FD304E7130E461300FDD5A5 /* AlarmSetterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlarmSetterView.h; sourceTree = "<group>"; };
+		1FD304E8130E461300FDD5A5 /* AlarmSetterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlarmSetterView.m; sourceTree = "<group>"; };
+		1FD304E9130E461300FDD5A5 /* AlarmSetterView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = AlarmSetterView.xib; path = Classes/AlarmSetterView.xib; sourceTree = "<group>"; };
+		1FE4FAC11312E0AF0099A61C /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		1FF207F6133909D7007B1516 /* GraphViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GraphViewController.h; path = ../SleepTracker.xcodeproj/GraphViewController.h; sourceTree = "<group>"; };
+		1FF207F7133909D8007B1516 /* GraphViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GraphViewController.m; path = ../SleepTracker.xcodeproj/GraphViewController.m; sourceTree = "<group>"; };
+		1FF207F8133909D9007B1516 /* GraphViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = GraphViewController.xib; path = SleepTracker.xcodeproj/GraphViewController.xib; sourceTree = "<group>"; };
+		1FF207FB13390CA7007B1516 /* Graph.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Graph.h; sourceTree = "<group>"; };
+		1FF207FC13390CA7007B1516 /* Graph.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Graph.m; sourceTree = "<group>"; };
+		1FF2080613395750007B1516 /* GraphView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GraphView.h; sourceTree = "<group>"; };
+		1FF2080713395751007B1516 /* GraphView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GraphView.m; sourceTree = "<group>"; };
+		28216C950DB411BC00E5133A /* ClockViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClockViewController.h; sourceTree = "<group>"; };
+		28216C960DB411BC00E5133A /* ClockViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClockViewController.m; sourceTree = "<group>"; };
+		2840D7CD1179279E00D7F93C /* ClockView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ClockView.xib; sourceTree = "<group>"; };
+		288765070DF74369002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		28A0AB4B0D9B1048005BE974 /* SleepTracker_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SleepTracker_Prefix.pch; sourceTree = "<group>"; };
+		28AD73870D9D96C1002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* SleepTracker-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "SleepTracker-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765080DF74369002DB57D /* CoreGraphics.framework in Frameworks */,
+				1F7563CE1312263F00783A17 /* MediaPlayer.framework in Frameworks */,
+				1FE4FAC21312E0AF0099A61C /* AudioToolbox.framework in Frameworks */,
+				1F51BD5D1329FCAF00EF36F8 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				1FF207F213390681007B1516 /* Models */,
+				1FF207F3133906AB007B1516 /* Views, View Controllers */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* Sleep Tracker.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1F42D4B8134688CA001C44DC /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				1F6A36A51384947200D3D649 /* GraphButton.png */,
+				1F2A7C2A1380FB39002E4993 /* DeleteButton.png */,
+				1F6A5CB61352D06700F43B64 /* graph.png */,
+				1F6A5CB71352D06700F43B64 /* home.png */,
+				1F2A7C281380E061002E4993 /* BackgroundHome.png */,
+				1F528C4A1371BDB8000D5968 /* Background.png */,
+				1F6A369B13830FB900D3D649 /* icon.png */,
+				1F28FBD9137133A900A0A845 /* CornerBottomLeft.png */,
+				1F80AD1413824B2400D89335 /* settings.png */,
+				1F28FBDA137133A900A0A845 /* CornerBottomRight.png */,
+				1F28FBDB137133AA00A0A845 /* CornerTopLeft.png */,
+				1F28FBDC137133AA00A0A845 /* CornerTopRight.png */,
+				1F6A369913830C3B00D3D649 /* icon@2.png */,
+				1F4C774F134BE212002014BD /* alpha.png */,
+				1F80AD121382471B00D89335 /* analyze.png */,
+				1F14F8CF134AE183005F5102 /* DefaultCellViewBackground.png */,
+				1F3F54191347E7BE00AE999D /* Gray_Button.png */,
+				1F3F54171347E73600AE999D /* Start_Button.png */,
+				1F3F54151347E57D00AE999D /* Stop_Button.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		1FF207F213390681007B1516 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				1F1E14331312242F008B0F82 /* MusicPlayer.h */,
+				1F1E14341312242F008B0F82 /* MusicPlayer.m */,
+				1F787ADD131F5EF400939214 /* TrackedData.h */,
+				1F787ADE131F5EF400939214 /* TrackedData.m */,
+				1FD30443130E202C00FDD5A5 /* DateAndTime.h */,
+				1FD30444130E202C00FDD5A5 /* DateAndTime.m */,
+				1FD304D7130E428F00FDD5A5 /* Alarm.h */,
+				1FD304D8130E428F00FDD5A5 /* Alarm.m */,
+				1F51BD2C1329F72900EF36F8 /* SleepDateObject.h */,
+				1F51BD2D1329F72900EF36F8 /* SleepDateObject.m */,
+				1FF207FB13390CA7007B1516 /* Graph.h */,
+				1FF207FC13390CA7007B1516 /* Graph.m */,
+				1F6A36A213842DF300D3D649 /* Time.h */,
+				1F6A36A313842DF300D3D649 /* Time.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		1FF207F3133906AB007B1516 /* Views, View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				1F1F34C4134E4B72003C3AEC /* ManualTimesNavigationViewController.h */,
+				1F1F34C5134E4B72003C3AEC /* ManualTimesNavigationViewController.m */,
+				1F80AD09138238E200D89335 /* SettingsViewController.h */,
+				1F80AD0A138238E200D89335 /* SettingsViewController.m */,
+				1F6A369D13833FA600D3D649 /* TableViewReference.h */,
+				1F6A369E13833FA600D3D649 /* TableViewReference.m */,
+				1F1B474E13458BFD004BB6B2 /* DataViewController.h */,
+				1F1B474F13458BFD004BB6B2 /* DataViewController.m */,
+				1FF207F6133909D7007B1516 /* GraphViewController.h */,
+				1FF207F7133909D8007B1516 /* GraphViewController.m */,
+				28216C950DB411BC00E5133A /* ClockViewController.h */,
+				28216C960DB411BC00E5133A /* ClockViewController.m */,
+				1F51BCB01329894F00EF36F8 /* SleepTrackerListViewController.h */,
+				1F51BCB11329894F00EF36F8 /* SleepTrackerListViewController.m */,
+				1D3623240D0F684500981E51 /* SleepTrackerAppDelegate.h */,
+				1D3623250D0F684500981E51 /* SleepTrackerAppDelegate.m */,
+				1FD304E7130E461300FDD5A5 /* AlarmSetterView.h */,
+				1FD304E8130E461300FDD5A5 /* AlarmSetterView.m */,
+				1FF2080613395750007B1516 /* GraphView.h */,
+				1FF2080713395751007B1516 /* GraphView.m */,
+				1F3E3B5813481130000F8E7A /* DefaultCellView.h */,
+				1F3E3B5913481130000F8E7A /* DefaultCellView.m */,
+				1F80AD041382371900D89335 /* AnalyzeViewController.h */,
+				1F80AD051382371900D89335 /* AnalyzeViewController.m */,
+			);
+			name = "Views, View Controllers";
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* SleepTracker */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = SleepTracker;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				28A0AB4B0D9B1048005BE974 /* SleepTracker_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1F42D4B8134688CA001C44DC /* Images */,
+				1F51BCEC13298E0600EF36F8 /* SleepTrackTimes.xcdatamodel */,
+				1F1C4B7A1323341B00BE0371 /* Robby.wav */,
+				1F7D02E8132091C300D18F2B /* RapidFire.wav */,
+				1F6A369F13833FA700D3D649 /* TableViewReference.xib */,
+				1FF207F8133909D9007B1516 /* GraphViewController.xib */,
+				1FD304E9130E461300FDD5A5 /* AlarmSetterView.xib */,
+				1F80AD061382371A00D89335 /* AnalyzeViewController.xib */,
+				2840D7CD1179279E00D7F93C /* ClockView.xib */,
+				1F80AD0B138238E300D89335 /* SettingsViewController.xib */,
+				1F1B475013458BFD004BB6B2 /* DataViewController.xib */,
+				1F1F34C9134E4C7E003C3AEC /* ManualTimesNavigationViewController.xib */,
+				28AD73870D9D96C1002E5188 /* MainWindow.xib */,
+				1F3E3B5B1348116D000F8E7A /* DefaultCellView.xib */,
+				8D1107310486CEB800E47090 /* SleepTracker-Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1FE4FAC11312E0AF0099A61C /* AudioToolbox.framework */,
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765070DF74369002DB57D /* CoreGraphics.framework */,
+				1F7563CD1312263F00783A17 /* MediaPlayer.framework */,
+				1F51BD5C1329FCAF00EF36F8 /* CoreData.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* SleepTracker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "SleepTracker" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SleepTracker;
+			productName = SleepTracker;
+			productReference = 1D6058910D05DD3D006BFB54 /* Sleep Tracker.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "SleepTracker" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* SleepTracker */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* SleepTracker */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD73880D9D96C1002E5188 /* MainWindow.xib in Resources */,
+				2840D7CE1179279E00D7F93C /* ClockView.xib in Resources */,
+				1FD304EB130E461300FDD5A5 /* AlarmSetterView.xib in Resources */,
+				1F7D02E9132091C300D18F2B /* RapidFire.wav in Resources */,
+				1F1C4B7B1323341B00BE0371 /* Robby.wav in Resources */,
+				1FF207FA133909DA007B1516 /* GraphViewController.xib in Resources */,
+				1F1B475213458BFD004BB6B2 /* DataViewController.xib in Resources */,
+				1F3F54161347E57D00AE999D /* Stop_Button.png in Resources */,
+				1F3F54181347E73600AE999D /* Start_Button.png in Resources */,
+				1F3F541A1347E7BE00AE999D /* Gray_Button.png in Resources */,
+				1F3E3B5C1348116E000F8E7A /* DefaultCellView.xib in Resources */,
+				1F14F8D0134AE183005F5102 /* DefaultCellViewBackground.png in Resources */,
+				1F4C7750134BE212002014BD /* alpha.png in Resources */,
+				1F1F34CA134E4C7E003C3AEC /* ManualTimesNavigationViewController.xib in Resources */,
+				1F6A5CB81352D06700F43B64 /* graph.png in Resources */,
+				1F6A5CB91352D06700F43B64 /* home.png in Resources */,
+				1F28FBDD137133AA00A0A845 /* CornerBottomLeft.png in Resources */,
+				1F28FBDE137133AA00A0A845 /* CornerBottomRight.png in Resources */,
+				1F28FBDF137133AA00A0A845 /* CornerTopLeft.png in Resources */,
+				1F28FBE0137133AA00A0A845 /* CornerTopRight.png in Resources */,
+				1F528C4B1371BDB8000D5968 /* Background.png in Resources */,
+				1F2A7C291380E061002E4993 /* BackgroundHome.png in Resources */,
+				1F2A7C2B1380FB39002E4993 /* DeleteButton.png in Resources */,
+				1F80AD081382371A00D89335 /* AnalyzeViewController.xib in Resources */,
+				1F80AD0D138238E300D89335 /* SettingsViewController.xib in Resources */,
+				1F80AD131382471B00D89335 /* analyze.png in Resources */,
+				1F80AD1513824B2400D89335 /* settings.png in Resources */,
+				1F6A369A13830C3B00D3D649 /* icon@2.png in Resources */,
+				1F6A369C13830FB900D3D649 /* icon.png in Resources */,
+				1F6A36A113833FA700D3D649 /* TableViewReference.xib in Resources */,
+				1F6A36A61384947200D3D649 /* GraphButton.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* SleepTrackerAppDelegate.m in Sources */,
+				28216C970DB411BC00E5133A /* ClockViewController.m in Sources */,
+				1FD30445130E202C00FDD5A5 /* DateAndTime.m in Sources */,
+				1FD304D9130E428F00FDD5A5 /* Alarm.m in Sources */,
+				1FD304EA130E461300FDD5A5 /* AlarmSetterView.m in Sources */,
+				1F1E14351312242F008B0F82 /* MusicPlayer.m in Sources */,
+				1F787ADF131F5EF400939214 /* TrackedData.m in Sources */,
+				1F51BCB31329894F00EF36F8 /* SleepTrackerListViewController.m in Sources */,
+				1F51BCED13298E0600EF36F8 /* SleepTrackTimes.xcdatamodel in Sources */,
+				1F51BD2E1329F72900EF36F8 /* SleepDateObject.m in Sources */,
+				1FF207F9133909DA007B1516 /* GraphViewController.m in Sources */,
+				1FF207FD13390CA8007B1516 /* Graph.m in Sources */,
+				1FF2080813395754007B1516 /* GraphView.m in Sources */,
+				1F1B475113458BFD004BB6B2 /* DataViewController.m in Sources */,
+				1F3E3B5A13481130000F8E7A /* DefaultCellView.m in Sources */,
+				1F1F34C6134E4B72003C3AEC /* ManualTimesNavigationViewController.m in Sources */,
+				1F80AD071382371A00D89335 /* AnalyzeViewController.m in Sources */,
+				1F80AD0C138238E300D89335 /* SettingsViewController.m in Sources */,
+				1F6A36A013833FA700D3D649 /* TableViewReference.m in Sources */,
+				1F6A36A413842DF300D3D649 /* Time.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = SleepTracker_Prefix.pch;
+				INFOPLIST_FILE = "SleepTracker-Info.plist";
+				PRODUCT_NAME = "Sleep Tracker";
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = SleepTracker_Prefix.pch;
+				INFOPLIST_FILE = "SleepTracker-Info.plist";
+				PRODUCT_NAME = "Sleep Tracker";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Cameron Johnson (4QHE3XNE86)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Cameron Johnson (4QHE3XNE86)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				PREBINDING = NO;
+				PROVISIONING_PROFILE = "DD0585FD-A4A7-47E1-9C54-67AEAB2EDB4C";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "DD0585FD-A4A7-47E1-9C54-67AEAB2EDB4C";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Cameron Johnson (4QHE3XNE86)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Cameron Johnson (4QHE3XNE86)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PREBINDING = NO;
+				PROVISIONING_PROFILE = "DD0585FD-A4A7-47E1-9C54-67AEAB2EDB4C";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "DD0585FD-A4A7-47E1-9C54-67AEAB2EDB4C";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "SleepTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "SleepTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

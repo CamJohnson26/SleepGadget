@@ -1,0 +1,1063 @@
+TSleepTracker
+v7
+r0
+t321668300.715504
+cCheck dependencies
+cProcessInfoPlistFile /Users/cameronjohnson/Documents/SleepTracker/build/Debug-iphoneos/SleepTracker.app/Info.plist SleepTracker-Info.plist
+cCompileXIB /Users/cameronjohnson/Documents/SleepTracker/MainWindow.xib
+cCompileXIB /Users/cameronjohnson/Documents/SleepTracker/ClockView.xib
+cCompileXIB /Users/cameronjohnson/Documents/SleepTracker/Classes/AlarmSetterView.xib
+cCpResource build/Debug-iphoneos/SleepTracker.app/RapidFire.wav RapidFire.wav
+cCpResource build/Debug-iphoneos/SleepTracker.app/Robby.wav Robby.wav
+cCompileXIB /Users/cameronjohnson/Documents/SleepTracker/Classes/SleepTrackerListViewController.xib
+cProcessPCH /var/folders/6z/6zIRSci5GweBfOveU7JNHU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SleepTracker_Prefix-dczsngqynpghlsfrfwcajxghberd/SleepTracker_Prefix.pch.gch SleepTracker_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+cProcessPCH /var/folders/6z/6zIRSci5GweBfOveU7JNHU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SleepTracker_Prefix-bxvhiwxnbwykqwbztdejehsldjji/SleepTracker_Prefix.pch.gch SleepTracker_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+cDataModelCompile /Users/cameronjohnson/Documents/SleepTracker/build/Debug-iphoneos/SleepTracker.app/SleepTrackTimes.mom /Users/cameronjohnson/Documents/SleepTracker/Classes/SleepTrackTimes.xcdatamodel
+cCompileC build/SleepTracker.build/Debug-iphoneos/SleepTracker.build/Objects-normal/armv6/main.o /Users/cameronjohnson/Documents/SleepTracker/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/SleepTracker.build/Debug-iphoneos/SleepTracker.build/Objects-normal/armv6/SleepTrackerAppDelegate.o /Users/cameronjohnson/Documents/SleepTracker/Classes/SleepTrackerAppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/SleepTracker.build/Debug-iphoneos/SleepTracker.build/Objects-normal/armv6/ClockViewController.o /Users/cameronjohnson/Documents/SleepTracker/Classes/ClockViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/SleepTracker.build/Debug-iphoneos/SleepTracker.build/Objects-normal/armv6/DateAndTime.o /Users/cameronjohnson/Documents/SleepTracker/Classes/DateAndTime.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/SleepTracker.build/Debug-iphoneos/SleepTracker.build/Objects-normal/armv6/Alarm.o /Users/cameronjohnson/Documents/SleepTracker/Classes/Alarm.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/SleepTracker.build/Debug-iphoneos/SleepTracker.build/Objects-normal/armv6/AlarmSetterView.o /Users/cameronjohnson/Documents/SleepTracker/Classes/AlarmSetterView.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/SleepTracker.build/Debug-iphoneos/SleepTracker.build/Objects-normal/armv6/MusicPlayer.o /Users/cameronjohnson/Documents/SleepTracker/Classes/MusicPlayer.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/SleepTracker.build/Debug-iphoneos/SleepTracker.build/Objects-normal/armv6/TrackedData.o /Users/cameronjohnson/Documents/SleepTracker/Classes/TrackedData.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/SleepTracker.build/Debug-iphoneos/SleepTracker.build/Objects-normal/armv6/SleepTrackerListViewController.o /Users/cameronjohnson/Documents/SleepTracker/Classes/SleepTrackerListViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/SleepTracker.build/Debug-iphoneos/SleepTracker.build/Objects-normal/armv6/SleepDateObject.o /Users/cameronjohnson/Documents/SleepTracker/Classes/SleepDateObject.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/SleepTracker.build/Debug-iphoneos/SleepTracker.build/Objects-normal/armv7/main.o /Users/cameronjohnson/Documents/SleepTracker/main.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/SleepTracker.build/Debug-iphoneos/SleepTracker.build/Objects-normal/armv7/SleepTrackerAppDelegate.o /Users/cameronjohnson/Documents/SleepTracker/Classes/SleepTrackerAppDelegate.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/SleepTracker.build/Debug-iphoneos/SleepTracker.build/Objects-normal/armv7/ClockViewController.o /Users/cameronjohnson/Documents/SleepTracker/Classes/ClockViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/SleepTracker.build/Debug-iphoneos/SleepTracker.build/Objects-normal/armv7/DateAndTime.o /Users/cameronjohnson/Documents/SleepTracker/Classes/DateAndTime.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/SleepTracker.build/Debug-iphoneos/SleepTracker.build/Objects-normal/armv7/Alarm.o /Users/cameronjohnson/Documents/SleepTracker/Classes/Alarm.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/SleepTracker.build/Debug-iphoneos/SleepTracker.build/Objects-normal/armv7/AlarmSetterView.o /Users/cameronjohnson/Documents/SleepTracker/Classes/AlarmSetterView.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/SleepTracker.build/Debug-iphoneos/SleepTracker.build/Objects-normal/armv7/MusicPlayer.o /Users/cameronjohnson/Documents/SleepTracker/Classes/MusicPlayer.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/SleepTracker.build/Debug-iphoneos/SleepTracker.build/Objects-normal/armv7/TrackedData.o /Users/cameronjohnson/Documents/SleepTracker/Classes/TrackedData.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/SleepTracker.build/Debug-iphoneos/SleepTracker.build/Objects-normal/armv7/SleepTrackerListViewController.o /Users/cameronjohnson/Documents/SleepTracker/Classes/SleepTrackerListViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/cameronjohnson/Documents/SleepTracker/build/SleepTracker.build/Debug-iphoneos/SleepTracker.build/Objects-normal/armv6/SleepTracker normal armv6
+cCompileC build/SleepTracker.build/Debug-iphoneos/SleepTracker.build/Objects-normal/armv7/SleepDateObject.o /Users/cameronjohnson/Documents/SleepTracker/Classes/SleepDateObject.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/cameronjohnson/Documents/SleepTracker/build/SleepTracker.build/Debug-iphoneos/SleepTracker.build/Objects-normal/armv7/SleepTracker normal armv7
+cCreateUniversalBinary /Users/cameronjohnson/Documents/SleepTracker/build/Debug-iphoneos/SleepTracker.app/SleepTracker normal "armv6 armv7"
+cGenerateDSYMFile /Users/cameronjohnson/Documents/SleepTracker/build/Debug-iphoneos/SleepTracker.app.dSYM /Users/cameronjohnson/Documents/SleepTracker/build/Debug-iphoneos/SleepTracker.app/SleepTracker
+cPhaseScriptExecution "Run Script" /Users/cameronjohnson/Documents/SleepTracker/build/SleepTracker.build/Debug-iphoneos/SleepTracker.build/Script-1FD30423130E1B8200FDD5A5.sh
+cTouch /Users/cameronjohnson/Documents/SleepTracker/build/Debug-iphoneos/SleepTracker.app
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk
+c000000004D5DE5F50000000000000154
+t1297999349
+s340
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+c000000004CB3DFCF00000000000001E5
+t1286856655
+s485
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/AVFoundation.framework/AVFoundation
+c000000004CC11C42000000000020BF30
+t1287724098
+s2146096
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVFoundation.h
+c000000004CC11C240000000000000733
+t1287724068
+s1843
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
+c000000004CC10EF400000000003B8CB0
+t1287720692
+s3902640
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.h
+c000000004CC10EB60000000000000A23
+t1287720630
+s2595
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/CoreData.framework/CoreData
+c000000004CC10FA70000000000300DE0
+t1287720871
+s3149280
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.h
+c000000004CC10F8D000000000000046B
+t1287720845
+s1131
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004CC10EF500000000003532B0
+t1287720693
+s3486384
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004CC10F4700000000003E1F20
+t1287720775
+s4071200
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004CC10F1C0000000000001466
+t1287720732
+s5222
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/MediaPlayer.framework/Headers/MediaPlayer.h
+c000000004CC247E70000000000000294
+t1287800807
+s660
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/MediaPlayer.framework/MediaPlayer
+c000000004CC2483E000000000038CF50
+t1287800894
+s3723088
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004CC11AE60000000000000AA1
+t1287723750
+s2721
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004CC11B750000000000C769F0
+t1287723893
+s13068784
+
+N/Users/cameronjohnson/Documents/SleepTracker/Classes/Alarm.h
+c000000004D72F71E0000000000000214
+t1299379998
+s532
+i<Foundation/Foundation.h>
+
+N/Users/cameronjohnson/Documents/SleepTracker/Classes/Alarm.m
+c000000004D72F71900000000000004D0
+t1299379993
+s1232
+i"Alarm.h"
+
+N/Users/cameronjohnson/Documents/SleepTracker/Classes/AlarmSetter.h
+c000000004D5E0F490000000000000128
+t1298009929
+s296
+i<UIKit/UIKit.h>
+
+N/Users/cameronjohnson/Documents/SleepTracker/Classes/AlarmSetter.m
+c000000004D5E12A40000000000000690
+t1298010788
+s1680
+i"AlarmSetter.h"
+
+N/Users/cameronjohnson/Documents/SleepTracker/Classes/AlarmSetter.xib
+c000000004D5E11C300000000000056C0
+t1298010563
+s22208
+
+N/Users/cameronjohnson/Documents/SleepTracker/Classes/AlarmSetterView.h
+c000000004D5E1722000000000000024E
+t1298011938
+s590
+i<UIKit/UIKit.h>
+
+N/Users/cameronjohnson/Documents/SleepTracker/Classes/AlarmSetterView.m
+c000000004D5E1948000000000000072D
+t1298012488
+s1837
+i"AlarmSetterView.h"
+
+N/Users/cameronjohnson/Documents/SleepTracker/Classes/AlarmSetterView.xib
+c000000004D62056C0000000000005D4F
+t1298269548
+s23887
+
+N/Users/cameronjohnson/Documents/SleepTracker/Classes/ClockViewController.h
+c000000004D73091800000000000004CE
+t1299384600
+s1230
+i<UIKit/UIKit.h>
+i<MediaPlayer/MediaPlayer.h>
+i<AudioToolbox/AudioToolbox.h>
+i"DateAndTime.h"
+i"AlarmSetterView.h"
+i"Alarm.h"
+i"MusicPlayer.h"
+i"TrackedData.h"
+
+N/Users/cameronjohnson/Documents/SleepTracker/Classes/ClockViewController.m
+c000000004D730DBA0000000000001C72
+t1299385786
+s7282
+i"ClockViewController.h"
+
+N/Users/cameronjohnson/Documents/SleepTracker/Classes/DateAndTime.h
+c000000004D61D1410000000000000149
+t1298256193
+s329
+i<Foundation/Foundation.h>
+
+N/Users/cameronjohnson/Documents/SleepTracker/Classes/DateAndTime.m
+c000000004D61D2AB0000000000000559
+t1298256555
+s1369
+i"DateAndTime.h"
+
+N/Users/cameronjohnson/Documents/SleepTracker/Classes/FirstViewController.h
+c000000004D5DD77500000000000000FC
+t1297995637
+s252
+i<UIKit/UIKit.h>
+
+N/Users/cameronjohnson/Documents/SleepTracker/Classes/FirstViewController.m
+c000000004D5DD77500000000000005C5
+t1297995637
+s1477
+i"FirstViewController.h"
+
+N/Users/cameronjohnson/Documents/SleepTracker/Classes/MusicPlayer.h
+c000000004D62163B00000000000001F0
+t1298273851
+s496
+i<Foundation/Foundation.h>
+i<MediaPlayer/MediaPlayer.h>
+
+N/Users/cameronjohnson/Documents/SleepTracker/Classes/MusicPlayer.m
+c000000004D62161F00000000000007E0
+t1298273823
+s2016
+i"MusicPlayer.h"
+
+N/Users/cameronjohnson/Documents/SleepTracker/Classes/SleepDateObject.h
+c000000004D79BFA90000000000000161
+t1299824553
+s353
+i<CoreData/CoreData.h>
+
+N/Users/cameronjohnson/Documents/SleepTracker/Classes/SleepDateObject.m
+c000000004D79BFA9000000000000010E
+t1299824553
+s270
+i"SleepDateObject.h"
+
+N/Users/cameronjohnson/Documents/SleepTracker/Classes/SleepTrackTimes.xcdatamodel
+c000000004D79C4C90000000000000088
+t1299825865
+s136
+
+N/Users/cameronjohnson/Documents/SleepTracker/Classes/SleepTrackerAppDelegate.h
+c000000004D79B71100000000000001F5
+t1299822353
+s501
+i<UIKit/UIKit.h>
+
+N/Users/cameronjohnson/Documents/SleepTracker/Classes/SleepTrackerAppDelegate.m
+c000000004D5E12530000000000000C60
+t1298010707
+s3168
+i"SleepTrackerAppDelegate.h"
+
+N/Users/cameronjohnson/Documents/SleepTracker/Classes/SleepTrackerListViewController.h
+c000000004D79C932000000000000022E
+t1299826994
+s558
+i<UIKit/UIKit.h>
+i<CoreData/CoreData.h>
+i"SleepDateObject.h"
+
+N/Users/cameronjohnson/Documents/SleepTracker/Classes/SleepTrackerListViewController.m
+c000000004D79C8EB00000000000016F5
+t1299826923
+s5877
+i"SleepTrackerListViewController.h"
+
+N/Users/cameronjohnson/Documents/SleepTracker/Classes/SleepTrackerListViewController.xib
+c000000004D7951CF0000000000001CA5
+t1299796431
+s7333
+
+N/Users/cameronjohnson/Documents/SleepTracker/Classes/TrackedData.h
+c000000004D79BDA90000000000000290
+t1299824041
+s656
+i<Foundation/Foundation.h>
+
+N/Users/cameronjohnson/Documents/SleepTracker/Classes/TrackedData.m
+c000000004D79BDDA000000000000050E
+t1299824090
+s1294
+i"TrackedData.h"
+
+N/Users/cameronjohnson/Documents/SleepTracker/ClockView.xib
+c000000004D73097D000000000000A1B1
+t1299384701
+s41393
+
+N/Users/cameronjohnson/Documents/SleepTracker/FirstView.xib
+c000000004D5DD77500000000000049D6
+t1297995637
+s18902
+
+N/Users/cameronjohnson/Documents/SleepTracker/MainWindow.xib
+c000000004D79561C00000000000083EE
+t1299797532
+s33774
+
+N/Users/cameronjohnson/Documents/SleepTracker/RapidFire.wav
+c000000004D705A35000000000002D56E
+t1299208757
+s185710
+
+N/Users/cameronjohnson/Documents/SleepTracker/Robby.wav
+c000000004D72FC9B000000000006B922
+t1299381403
+s440610
+
+N/Users/cameronjohnson/Documents/SleepTracker/SecondView.xib
+c000000004D5DD77500000000000049D4
+t1297995637
+s18900
+
+N/Users/cameronjohnson/Documents/SleepTracker/SleepTracker_Prefix.pch
+c000000004D5DD77500000000000000C1
+t1297995637
+s193
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/cameronjohnson/Documents/SleepTracker/build/Debug-iphoneos/SleepTracker.app
+t1299975500
+s680
+
+N/Users/cameronjohnson/Documents/SleepTracker/build/Debug-iphoneos/SleepTracker.app.dSYM
+t1299975499
+s102
+
+N/Users/cameronjohnson/Documents/SleepTracker/build/Debug-iphoneos/SleepTracker.app/AlarmSetter.nib
+t1298010567
+s1627
+
+N/Users/cameronjohnson/Documents/SleepTracker/build/Debug-iphoneos/SleepTracker.app/AlarmSetterView.nib
+t1298269550
+s1670
+
+N/Users/cameronjohnson/Documents/SleepTracker/build/Debug-iphoneos/SleepTracker.app/ClockView.nib
+t1299384713
+s3460
+
+N/Users/cameronjohnson/Documents/SleepTracker/build/Debug-iphoneos/SleepTracker.app/FirstView.nib
+t1297996674
+s1743
+
+N/Users/cameronjohnson/Documents/SleepTracker/build/Debug-iphoneos/SleepTracker.app/Info.plist
+t1297999690
+s741
+
+N/Users/cameronjohnson/Documents/SleepTracker/build/Debug-iphoneos/SleepTracker.app/MainWindow.nib
+t1299821067
+s1712
+
+N/Users/cameronjohnson/Documents/SleepTracker/build/Debug-iphoneos/SleepTracker.app/PkgInfo
+t1297999690
+s8
+
+N/Users/cameronjohnson/Documents/SleepTracker/build/Debug-iphoneos/SleepTracker.app/RapidFire.wav
+t1299208901
+s185710
+
+N/Users/cameronjohnson/Documents/SleepTracker/build/Debug-iphoneos/SleepTracker.app/ResourceRules.plist
+t1297996673
+s485
+
+N/Users/cameronjohnson/Documents/SleepTracker/build/Debug-iphoneos/SleepTracker.app/Robby.wav
+t1299381410
+s440610
+
+N/Users/cameronjohnson/Documents/SleepTracker/build/Debug-iphoneos/SleepTracker.app/SecondView.nib
+t1297996673
+s1742
+
+N/Users/cameronjohnson/Documents/SleepTracker/build/Debug-iphoneos/SleepTracker.app/SleepTrackTimes.mom
+t1299825874
+s1313
+
+N/Users/cameronjohnson/Documents/SleepTracker/build/Debug-iphoneos/SleepTracker.app/SleepTracker
+t1299975499
+s118592
+
+N/Users/cameronjohnson/Documents/SleepTracker/build/Debug-iphoneos/SleepTracker.app/SleepTrackerListViewController.nib
+t1299796571
+s979
+
+N/Users/cameronjohnson/Documents/SleepTracker/build/Debug-iphoneos/SleepTracker.app/missionimpossible.wav
+t1299208776
+s185710
+
+N/Users/cameronjohnson/Documents/SleepTracker/build/SleepTracker.build/Debug-iphoneos/SleepTracker.build/Objects-normal/armv6/Alarm.o
+t1299379999
+s12420
+
+N/Users/cameronjohnson/Documents/SleepTracker/build/SleepTracker.build/Debug-iphoneos/SleepTracker.build/Objects-normal/armv6/AlarmSetter.o
+t1298010532
+s39156
+
+N/Users/cameronjohnson/Documents/SleepTracker/build/SleepTracker.build/Debug-iphoneos/SleepTracker.build/Objects-normal/armv6/AlarmSetterView.o
+t1298012498
+s40708
+
+N/Users/cameronjohnson/Documents/SleepTracker/build/SleepTracker.build/Debug-iphoneos/SleepTracker.build/Objects-normal/armv6/ClockViewController.o
+t1299824123
+s69488
+
+N/Users/cameronjohnson/Documents/SleepTracker/build/SleepTracker.build/Debug-iphoneos/SleepTracker.build/Objects-normal/armv6/DateAndTime.o
+t1298256615
+s9828
+
+N/Users/cameronjohnson/Documents/SleepTracker/build/SleepTracker.build/Debug-iphoneos/SleepTracker.build/Objects-normal/armv6/FirstViewController.o
+t1297996675
+s37460
+
+N/Users/cameronjohnson/Documents/SleepTracker/build/SleepTracker.build/Debug-iphoneos/SleepTracker.build/Objects-normal/armv6/MusicPlayer.o
+t1298273856
+s13772
+
+N/Users/cameronjohnson/Documents/SleepTracker/build/SleepTracker.build/Debug-iphoneos/SleepTracker.build/Objects-normal/armv6/SleepDateObject.o
+t1299825615
+s5548
+
+N/Users/cameronjohnson/Documents/SleepTracker/build/SleepTracker.build/Debug-iphoneos/SleepTracker.build/Objects-normal/armv6/SleepTracker
+t1299975499
+s51196
+
+N/Users/cameronjohnson/Documents/SleepTracker/build/SleepTracker.build/Debug-iphoneos/SleepTracker.build/Objects-normal/armv6/SleepTracker.LinkFileList
+c000000004D79C3CF0000000000000590
+t1299825615
+s1424
+
+N/Users/cameronjohnson/Documents/SleepTracker/build/SleepTracker.build/Debug-iphoneos/SleepTracker.build/Objects-normal/armv6/SleepTrackerAppDelegate.o
+t1299822360
+s54164
+
+N/Users/cameronjohnson/Documents/SleepTracker/build/SleepTracker.build/Debug-iphoneos/SleepTracker.build/Objects-normal/armv6/SleepTrackerListViewController.o
+t1299975498
+s53060
+
+N/Users/cameronjohnson/Documents/SleepTracker/build/SleepTracker.build/Debug-iphoneos/SleepTracker.build/Objects-normal/armv6/TrackedData.o
+t1299824123
+s14612
+
+N/Users/cameronjohnson/Documents/SleepTracker/build/SleepTracker.build/Debug-iphoneos/SleepTracker.build/Objects-normal/armv6/main.o
+t1297996675
+s6460
+
+N/Users/cameronjohnson/Documents/SleepTracker/build/SleepTracker.build/Debug-iphoneos/SleepTracker.build/Objects-normal/armv7/Alarm.o
+t1299379999
+s12344
+
+N/Users/cameronjohnson/Documents/SleepTracker/build/SleepTracker.build/Debug-iphoneos/SleepTracker.build/Objects-normal/armv7/AlarmSetter.o
+t1298010532
+s39124
+
+N/Users/cameronjohnson/Documents/SleepTracker/build/SleepTracker.build/Debug-iphoneos/SleepTracker.build/Objects-normal/armv7/AlarmSetterView.o
+t1298012498
+s40652
+
+N/Users/cameronjohnson/Documents/SleepTracker/build/SleepTracker.build/Debug-iphoneos/SleepTracker.build/Objects-normal/armv7/ClockViewController.o
+t1299824123
+s69056
+
+N/Users/cameronjohnson/Documents/SleepTracker/build/SleepTracker.build/Debug-iphoneos/SleepTracker.build/Objects-normal/armv7/DateAndTime.o
+t1298256615
+s9792
+
+N/Users/cameronjohnson/Documents/SleepTracker/build/SleepTracker.build/Debug-iphoneos/SleepTracker.build/Objects-normal/armv7/FirstViewController.o
+t1297996676
+s37440
+
+N/Users/cameronjohnson/Documents/SleepTracker/build/SleepTracker.build/Debug-iphoneos/SleepTracker.build/Objects-normal/armv7/MusicPlayer.o
+t1298273856
+s13664
+
+N/Users/cameronjohnson/Documents/SleepTracker/build/SleepTracker.build/Debug-iphoneos/SleepTracker.build/Objects-normal/armv7/SleepDateObject.o
+t1299825615
+s5548
+
+N/Users/cameronjohnson/Documents/SleepTracker/build/SleepTracker.build/Debug-iphoneos/SleepTracker.build/Objects-normal/armv7/SleepTracker
+t1299975499
+s51196
+
+N/Users/cameronjohnson/Documents/SleepTracker/build/SleepTracker.build/Debug-iphoneos/SleepTracker.build/Objects-normal/armv7/SleepTracker.LinkFileList
+c000000004D79C3CF0000000000000590
+t1299825615
+s1424
+
+N/Users/cameronjohnson/Documents/SleepTracker/build/SleepTracker.build/Debug-iphoneos/SleepTracker.build/Objects-normal/armv7/SleepTrackerAppDelegate.o
+t1299822360
+s54080
+
+N/Users/cameronjohnson/Documents/SleepTracker/build/SleepTracker.build/Debug-iphoneos/SleepTracker.build/Objects-normal/armv7/SleepTrackerListViewController.o
+t1299975498
+s52916
+
+N/Users/cameronjohnson/Documents/SleepTracker/build/SleepTracker.build/Debug-iphoneos/SleepTracker.build/Objects-normal/armv7/TrackedData.o
+t1299824123
+s14476
+
+N/Users/cameronjohnson/Documents/SleepTracker/build/SleepTracker.build/Debug-iphoneos/SleepTracker.build/Objects-normal/armv7/main.o
+t1297996675
+s6444
+
+N/Users/cameronjohnson/Documents/SleepTracker/build/SleepTracker.build/Debug-iphoneos/SleepTracker.build/Script-1F2AD4AD130E12B50054B48A.sh
+c000000004D5DDB81000000000000000B
+t1297996673
+s11
+
+N/Users/cameronjohnson/Documents/SleepTracker/build/SleepTracker.build/Debug-iphoneos/SleepTracker.build/Script-1FD30423130E1B8200FDD5A5.sh
+c000000004D5DE42200000000000001C9
+t1297998882
+s457
+
+N/Users/cameronjohnson/Documents/SleepTracker/main.m
+c000000004D5DD7750000000000000177
+t1297995637
+s375
+i<UIKit/UIKit.h>
+
+N/Users/cameronjohnson/Documents/SleepTracker/missionimpossible.wav
+c000000004D705A35000000000002D56E
+t1299208757
+s185710
+
+N/var/folders/6z/6zIRSci5GweBfOveU7JNHU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SleepTracker_Prefix-bxvhiwxnbwykqwbztdejehsldjji/SleepTracker_Prefix.pch.gch
+t1297996675
+s10446552
+
+N/var/folders/6z/6zIRSci5GweBfOveU7JNHU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SleepTracker_Prefix-dczsngqynpghlsfrfwcajxghberd/SleepTracker_Prefix.pch.gch
+t1297996675
+s9983704
+
+NSleepTracker-Info.plist
+c000000004D5DD775000000000000038D
+t1297995637
+s909
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies321668296#321668297#0(0"0(0#1#0"27866456492998768#0"0#
+
+CCodeSign /Users/cameronjohnson/Documents/SleepTracker/build/Debug-iphoneos/SleepTracker.app
+s319691682.493814
+e319691682.707966
+r1
+xCodeSign
+x/Users/cameronjohnson/Documents/SleepTracker/build/Debug-iphoneos/SleepTracker.app
+o/Users/cameronjohnson/Documents/SleepTracker/build/Debug-iphoneos/SleepTracker.app: replacing existing signature
+lSLF07#2@46"CodeSign build/Debug-iphoneos/SleepTracker.app319691682#319691682#0(113"/Users/cameronjohnson/Documents/SleepTracker/build/Debug-iphoneos/SleepTracker.app: replacing existing signature0(0#0#82"/Users/cameronjohnson/Documents/SleepTracker/build/Debug-iphoneos/SleepTracker.app8602695616#532"    cd /Users/cameronjohnson/Documents/SleepTracker    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv _CODESIGN_ALLOCATE_ /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    /usr/bin/codesign -f -s "iPhone Developer" --resource-rules=/Users/cameronjohnson/Documents/SleepTracker/build/Debug-iphoneos/SleepTracker.app/ResourceRules.plist /Users/cameronjohnson/Documents/SleepTracker/build/Debug-iphoneos/SleepTracker.app0#
+
+CCompileC build/SleepTracker.build/Debug-iphoneos/SleepTracker.build/Objects-normal/armv6/Alarm.o /Users/cameronjohnson/Documents/SleepTracker/Classes/Alarm.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s321072799.516576
+e321072799.590985
+r1
+xCompileC
+xbuild/SleepTracker.build/Debug-iphoneos/SleepTracker.build/Objects-normal/armv6/Alarm.o
+x/Users/cameronjohnson/Documents/SleepTracker/Classes/Alarm.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@68"Compile /Users/cameronjohnson/Documents/SleepTracker/Classes/Alarm.m321072799#321072799#0(0"0(0#0#60"/Users/cameronjohnson/Documents/SleepTracker/Classes/Alarm.m8612654752#1900"    cd /Users/cameronjohnson/Documents/SleepTracker    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/cameronjohnson/Documents/SleepTracker/build/SleepTracker.build/Debug-iphoneos/SleepTracker.build/SleepTracker-generated-files.hmap -I/Users/cameronjohnson/Documents/SleepTracker/build/SleepTracker.build/Debug-iphoneos/SleepTracker.build/SleepTracker-own-target-headers.hmap -I/Users/cameronjohnson/Documents/SleepTracker/build/SleepTracker.build/Debug-iphoneos/SleepTracker.build/SleepTracker-all-target-headers.hmap -iquote /Users/cameronjohnson/Documents/SleepTracker/build/SleepTracker.build/Debug-iphoneos/SleepTracker.build/SleepTracker-project-headers.hmap -F/Users/cameronjohnson/Documents/SleepTracker/build/Debug-iphoneos -I/Users/cameronjohnson/Documents/SleepTracker/build/Debug-iphoneos/include -I/Users/cameronjohnson/Documents/SleepTracker/build/SleepTracker.build/Debug-iphoneos/SleepTracker.build/DerivedSources/armv6 -I/Users/cameronjohnson/Documents/SleepTracker/build/SleepTracker.build/Debug-iphoneos/SleepTracker.build/DerivedSources -include /var/folders/6z/6zIRSci5GweBfOveU7JNHU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SleepTracker_Prefix-dczsngqynpghlsfrfwcajxghberd/SleepTracker_Prefix.pch -c /Users/cameronjohnson/Documents/SleepTracker/Classes/Alarm.m -o /Users/cameronjohnson/Documents/SleepTracker/build/SleepTracker.build/Debug-iphoneos/SleepTracker.build/Objects-normal/armv6/Alarm.o0#
+
+CCompileC build/SleepTracker.build/Debug-iphoneos/SleepTracker.build/Objects-normal/armv6/AlarmSetter.o /Users/cameronjohnson/Documents/SleepTracker/Classes/AlarmSetter.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s319703332.247111
+e319703332.420525
+r1
+xCompileC
+xbuild/SleepTracker.build/Debug-iphoneos/SleepTracker.build/Objects-normal/armv6/AlarmSetter.o
+x/Users/cameronjohnson/Documents/SleepTracker/Classes/AlarmSetter.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@74"Compile /Users/cameronjohnson/Documents/SleepTracker/Classes/AlarmSetter.m319703332#319703332#0(0"0(0#0#66"/Users/cameronjohnson/Documents/SleepTracker/Classes/AlarmSetter.m8634500576#1912"    cd /Users/cameronjohnson/Documents/SleepTracker    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/cameronjohnson/Documents/SleepTracker/build/SleepTracker.build/Debug-iphoneos/SleepTracker.build/SleepTracker-generated-files.hmap -I/Users/cameronjohnson/Documents/SleepTracker/build/SleepTracker.build/Debug-iphoneos/SleepTracker.build/SleepTracker-own-target-headers.hmap -I/Users/cameronjohnson/Documents/SleepTracker/build/SleepTracker.build/Debug-iphoneos/SleepTracker.build/SleepTracker-all-target-headers.hmap -iquote /Users/cameronjohnson/Documents/SleepTracker/build/SleepTracker.build/Debug-iphoneos/SleepTracker.build/SleepTracker-project-headers.hmap -F/Users/cameronjohnson/Documents/SleepTracker/build/Debug-iphoneos -I/Users/cameronjohnson/Documents/SleepTracker/build/Debug-iphoneos/include -I/Users/cameronjohnson/Documents/SleepTracker/build/SleepTracker.build/Debug-iphoneos/SleepTracker.build/DerivedSources/armv6 -I/Users/cameronjohnson/Documents/SleepTracker/build/SleepTracker.build/Debug-iphoneos/SleepTracker.build/DerivedSources -include /var/folders/6z/6zIRSci5GweBfOveU7JNHU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SleepTracker_Prefix-dczsngqynpghlsfrfwcajxghberd/SleepTracker_Prefix.pch -c /Users/cameronjohnson/Documents/SleepTracker/Classes/AlarmSetter.m -o /Users/cameronjohnson/Documents/SleepTracker/build/SleepTracker.build/Debug-iphoneos/SleepTracker.build/Objects-normal/armv6/AlarmSetter.o0#
+
+CCompileC build/SleepTracker.build/Debug-iphoneos/SleepTracker.build/Objects-normal/armv6/AlarmSetterView.o /Users/cameronjohnson/Documents/SleepTracker/Classes/AlarmSetterView.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s319705298.465177
+e319705298.617097
+r1
+xCompileC
+xbuild/SleepTracker.build/Debug-iphoneos/SleepTracker.build/Objects-normal/armv6/AlarmSetterView.o
+x/Users/cameronjohnson/Documents/SleepTracker/Classes/AlarmSetterView.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@78"Compile /Users/cameronjohnson/Documents/SleepTracker/Classes/AlarmSetterView.m319705298#319705298#0(0"0(0#0#70"/Users/cameronjohnson/Documents/SleepTracker/Classes/AlarmSetterView.m8636991968#1920"    cd /Users/cameronjohnson/Documents/SleepTracker    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/cameronjohnson/Documents/SleepTracker/build/SleepTracker.build/Debug-iphoneos/SleepTracker.build/SleepTracker-generated-files.hmap -I/Users/cameronjohnson/Documents/SleepTracker/build/SleepTracker.build/Debug-iphoneos/SleepTracker.build/SleepTracker-own-target-headers.hmap -I/Users/cameronjohnson/Documents/SleepTracker/build/SleepTracker.build/Debug-iphoneos/SleepTracker.build/SleepTracker-all-target-headers.hmap -iquote /Users/cameronjohnson/Documents/SleepTracker/build/SleepTracker.build/Debug-iphoneos/SleepTracker.build/SleepTracker-project-headers.hmap -F/Users/cameronjohnson/Documents/SleepTracker/build/Debug-iphoneos -I/Users/cameronjohnson/Documents/SleepTracker/build/Debug-iphoneos/include -I/Users/cameronjohnson/Documents/SleepTracker/build/SleepTracker.build/Debug-iphoneos/SleepTracker.build/DerivedSources/armv6 -I/Users/cameronjohnson/Documents/SleepTracker/build/SleepTracker.build/Debug-iphoneos/SleepTracker.build/DerivedSources -include /var/folders/6z/6zIRSci5GweBfOveU7JNHU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SleepTracker_Prefix-dczsngqynpghlsfrfwcajxghberd/SleepTracker_Prefix.pch -c /Users/cameronjohnson/Documents/SleepTracker/Classes/AlarmSetterView.m -o /Users/cameronjohnson/Documents/SleepTracker/build/SleepTracker.build/Debug-iphoneos/SleepTracker.build/Objects-normal/armv6/AlarmSetterView.o0#
+
+CCompileC build/SleepTracker.build/Debug-iphoneos/SleepTracker.build/Objects-normal/armv6/ClockViewController.o /Users/cameronjohnson/Documents/SleepTracker/Classes/ClockViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s321516923.346636
+e321516923.586976
+r1
+xCompileC
+xbuild/SleepTracker.build/Debug-iphoneos/SleepTracker.build/Objects-normal/armv6/ClockViewController.o
+x/Users/cameronjohnson/Documents/SleepTracker/Classes/ClockViewController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@82"Compile /Users/cameronjohnson/Documents/SleepTracker/Classes/ClockViewController.m321516923#321516923#0(0"0(0#0#74"/Users/cameronjohnson/Documents/SleepTracker/Classes/ClockViewController.m8619742752#1928"    cd /Users/cameronjohnson/Documents/SleepTracker    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/cameronjohnson/Documents/SleepTracker/build/SleepTracker.build/Debug-iphoneos/SleepTracker.build/SleepTracker-generated-files.hmap -I/Users/cameronjohnson/Documents/SleepTracker/build/SleepTracker.build/Debug-iphoneos/SleepTracker.build/SleepTracker-own-target-headers.hmap -I/Users/cameronjohnson/Documents/SleepTracker/build/SleepTracker.build/Debug-iphoneos/SleepTracker.build/SleepTracker-all-target-headers.hmap -iquote /Users/cameronjohnson/Documents/SleepTracker/build/SleepTracker.build/Debug-iphoneos/SleepTracker.build/SleepTracker-project-headers.hmap -F/Users/cameronjohnson/Documents/SleepTracker/build/Debug-iphoneos -I/Users/cameronjohnson/Documents/SleepTracker/build/Debug-iphoneos/include -I/Users/cameronjohnson/Documents/SleepTracker/build/SleepTracker.build/Debug-iphoneos/SleepTracker.build/DerivedSources/armv6 -I/Users/cameronjohnson/Documents/SleepTracker/build/SleepTracker.build/Debug-iphoneos/SleepTracker.build/DerivedSources -include /var/folders/6z/6zIRSci5GweBfOveU7JNHU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SleepTracker_Prefix-dczsngqynpghlsfrfwcajxghberd/SleepTracker_Prefix.pch -c /Users/cameronjohnson/Documents/SleepTracker/Classes/ClockViewController.m -o /Users/cameronjohnson/Documents/SleepTracker/build/SleepTracker.build/Debug-iphoneos/SleepTracker.build/Objects-normal/armv6/ClockViewController.o0#
+
+CCompileC build/SleepTracker.build/Debug-iphoneos/SleepTracker.build/Objects-normal/armv6/DateAndTime.o /Users/cameronjohnson/Documents/SleepTracker/Classes/DateAndTime.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s319949415.801501
+e319949415.919055
+r1
+xCompileC
+xbuild/SleepTracker.build/Debug-iphoneos/SleepTracker.build/Objects-normal/armv6/DateAndTime.o
+x/Users/cameronjohnson/Documents/SleepTracker/Classes/DateAndTime.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@74"Compile /Users/cameronjohnson/Documents/SleepTracker/Classes/DateAndTime.m319949415#319949415#0(0"0(0#0#66"/Users/cameronjohnson/Documents/SleepTracker/Classes/DateAndTime.m8621820512#1912"    cd /Users/cameronjohnson/Documents/SleepTracker    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/cameronjohnson/Documents/SleepTracker/build/SleepTracker.build/Debug-iphoneos/SleepTracker.build/SleepTracker-generated-files.hmap -I/Users/cameronjohnson/Documents/SleepTracker/build/SleepTracker.build/Debug-iphoneos/SleepTracker.build/SleepTracker-own-target-headers.hmap -I/Users/cameronjohnson/Documents/SleepTracker/build/SleepTracker.build/Debug-iphoneos/SleepTracker.build/SleepTracker-all-target-headers.hmap -iquote /Users/cameronjohnson/Documents/SleepTracker/build/SleepTracker.build/Debug-iphoneos/SleepTracker.build/SleepTracker-project-headers.hmap -F/Users/cameronjohnson/Documents/SleepTracker/build/Debug-iphoneos -I/Users/cameronjohnson/Documents/SleepTracker/build/Debug-iphoneos/include -I/Users/cameronjohnson/Documents/SleepTracker/build/SleepTracker.build/Debug-iphoneos/SleepTracker.build/DerivedSources/armv6 -I/Users/cameronjohnson/Documents/SleepTracker/build/SleepTracker.build/Debug-iphoneos/SleepTracker.build/DerivedSources -include /var/folders/6z/6zIRSci5GweBfOveU7JNHU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SleepTracker_Prefix-dczsngqynpghlsfrfwcajxghberd/SleepTracker_Prefix.pch -c /Users/cameronjohnson/Documents/SleepTracker/Classes/DateAndTime.m -o /Users/cameronjohnson/Documents/SleepTracker/build/SleepTracker.build/Debug-iphoneos/SleepTracker.build/Objects-normal/armv6/DateAndTime.o0#
+
+CCompileC build/SleepTracker.build/Debug-iphoneos/SleepTracker.build/Objects-normal/armv6/FirstViewController.o /Users/cameronjohnson/Documents/SleepTracker/Classes/FirstViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s319689475.896633
+e319689475.971842
+r1
+xCompileC
+xbuild/SleepTracker.build/Debug-iphoneos/SleepTracker.build/Objects-normal/armv6/FirstViewController.o
+x/Users/cameronjohnson/Documents/SleepTracker/Classes/FirstViewController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@82"Compile /Users/cameronjohnson/Documents/SleepTracker/Classes/FirstViewController.m319689475#319689475#0(0"0(0#0#74"/Users/cameronjohnson/Documents/SleepTracker/Classes/FirstViewController.m8612740256#1928"    cd /Users/cameronjohnson/Documents/SleepTracker    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/cameronjohnson/Documents/SleepTracker/build/SleepTracker.build/Debug-iphoneos/SleepTracker.build/SleepTracker-generated-files.hmap -I/Users/cameronjohnson/Documents/SleepTracker/build/SleepTracker.build/Debug-iphoneos/SleepTracker.build/SleepTracker-own-target-headers.hmap -I/Users/cameronjohnson/Documents/SleepTracker/build/SleepTracker.build/Debug-iphoneos/SleepTracker.build/SleepTracker-all-target-headers.hmap -iquote /Users/cameronjohnson/Documents/SleepTracker/build/SleepTracker.build/Debug-iphoneos/SleepTracker.build/SleepTracker-project-headers.hmap -F/Users/cameronjohnson/Documents/SleepTracker/build/Debug-iphoneos -I/Users/cameronjohnson/Documents/SleepTracker/build/Debug-iphoneos/include -I/Users/cameronjohnson/Documents/SleepTracker/build/SleepTracker.build/Debug-iphoneos/SleepTracker.build/DerivedSources/armv6 -I/Users/cameronjohnson/Documents/SleepTracker/build/SleepTracker.build/Debug-iphoneos/SleepTracker.build/DerivedSources -include /var/folders/6z/6zIRSci5GweBfOveU7JNHU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SleepTracker_Prefix-dczsngqynpghlsfrfwcajxghberd/SleepTracker_Prefix.pch -c /Users/cameronjohnson/Documents/SleepTracker/Classes/FirstViewController.m -o /Users/cameronjohnson/Documents/SleepTracker/build/SleepTracker.build/Debug-iphoneos/SleepTracker.build/Objects-normal/armv6/FirstViewController.o0#
+
+CCompileC build/SleepTracker.build/Debug-iphoneos/SleepTracker.build/Objects-normal/armv6/MusicPlayer.o /Users/cameronjohnson/Documents/SleepTracker/Classes/MusicPlayer.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s319966655.956142
+e319966656.082017
+r1
+xCompileC
+xbuild/SleepTracker.build/Debug-iphoneos/SleepTracker.build/Objects-normal/armv6/MusicPlayer.o
+x/Users/cameronjohnson/Documents/SleepTracker/Classes/MusicPlayer.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/cameronjohnson/Documents/SleepTracker/Classes/MusicPlayer.m:89: warning: incomplete implementation of class 'MusicPlayer'
+o/Users/cameronjohnson/Documents/SleepTracker/Classes/MusicPlayer.m:89: warning: method definition for '-startMusic' not found
+lSLF07#2@74"Compile /Users/cameronjohnson/Documents/SleepTracker/Classes/MusicPlayer.m319966655#319966656#0(255"/Users/cameronjohnson/Documents/SleepTracker/Classes/MusicPlayer.m:89: warning: incomplete implementation of class 'MusicPlayer'/Users/cameronjohnson/Documents/SleepTracker/Classes/MusicPlayer.m:89: warning: method definition for '-startMusic' not found2(22@48"Incomplete implementation of class 'MusicPlayer'319966656#0#129#0(6@66"/Users/cameronjohnson/Documents/SleepTracker/Classes/MusicPlayer.m319966623#89#0#89#0#38"incomplete implementation of class '*'0(22@45"Method definition for '-startMusic' not found319966656#129#126#0(6@66"/Users/cameronjohnson/Documents/SleepTracker/Classes/MusicPlayer.m319966623#89#0#89#0#35"method definition for '*' not found0(0#0#66"/Users/cameronjohnson/Documents/SleepTracker/Classes/MusicPlayer.m8628874880#1912"    cd /Users/cameronjohnson/Documents/SleepTracker    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/cameronjohnson/Documents/SleepTracker/build/SleepTracker.build/Debug-iphoneos/SleepTracker.build/SleepTracker-generated-files.hmap -I/Users/cameronjohnson/Documents/SleepTracker/build/SleepTracker.build/Debug-iphoneos/SleepTracker.build/SleepTracker-own-target-headers.hmap -I/Users/cameronjohnson/Documents/SleepTracker/build/SleepTracker.build/Debug-iphoneos/SleepTracker.build/SleepTracker-all-target-headers.hmap -iquote /Users/cameronjohnson/Documents/SleepTracker/build/SleepTracker.build/Debug-iphoneos/SleepTracker.build/SleepTracker-project-headers.hmap -F/Users/cameronjohnson/Documents/SleepTracker/build/Debug-iphoneos -I/Users/cameronjohnson/Documents/SleepTracker/build/Debug-iphoneos/include -I/Users/cameronjohnson/Documents/SleepTracker/build/SleepTracker.build/Debug-iphoneos/SleepTracker.build/DerivedSources/armv6 -I/Users/cameronjohnson/Documents/SleepTracker/build/SleepTracker.build/Debug-iphoneos/SleepTracker.build/DerivedSources -include /var/folders/6z/6zIRSci5GweBfOveU7JNHU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SleepTracker_Prefix-dczsngqynpghlsfrfwcajxghberd/SleepTracker_Prefix.pch -c /Users/cameronjohnson/Documents/SleepTracker/Classes/MusicPlayer.m -o /Users/cameronjohnson/Documents/SleepTracker/build/SleepTracker.build/Debug-iphoneos/SleepTracker.build/Objects-normal/armv6/MusicPlayer.o0#
+
+CCompileC build/SleepTracker.build/Debug-iphoneos/SleepTracker.build/Objects-normal/armv6/SleepDateObject.o /Users/cameronjohnson/Documents/SleepTracker/Classes/SleepDateObject.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s321518415.532966
+e321518415.643097
+r1
+xCompileC
+xbuild/SleepTracker.build/Debug-iphoneos/SleepTracker.build/Objects-normal/armv6/SleepDateObject.o
+x/Users/cameronjohnson/Documents/SleepTracker/Classes/SleepDateObject.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@78"Compile /Users/cameronjohnson/Documents/SleepTracker/Classes/SleepDateObject.m321518415#321518415#0(0"0(0#0#70"/Users/cameronjohnson/Documents/SleepTracker/Classes/SleepDateObject.m8622579296#1920"    cd /Users/cameronjohnson/Documents/SleepTracker    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/cameronjohnson/Documents/SleepTracker/build/SleepTracker.build/Debug-iphoneos/SleepTracker.build/SleepTracker-generated-files.hmap -I/Users/cameronjohnson/Documents/SleepTracker/build/SleepTracker.build/Debug-iphoneos/SleepTracker.build/SleepTracker-own-target-headers.hmap -I/Users/cameronjohnson/Documents/SleepTracker/build/SleepTracker.build/Debug-iphoneos/SleepTracker.build/SleepTracker-all-target-headers.hmap -iquote /Users/cameronjohnson/Documents/SleepTracker/build/SleepTracker.build/Debug-iphoneos/SleepTracker.build/SleepTracker-project-headers.hmap -F/Users/cameronjohnson/Documents/SleepTracker/build/Debug-iphoneos -I/Users/cameronjohnson/Documents/SleepTracker/build/Debug-iphoneos/include -I/Users/cameronjohnson/Documents/SleepTracker/build/SleepTracker.build/Debug-iphoneos/SleepTracker.build/DerivedSources/armv6 -I/Users/cameronjohnson/Documents/SleepTracker/build/SleepTracker.build/Debug-iphoneos/SleepTracker.build/DerivedSources -include /var/folders/6z/6zIRSci5GweBfOveU7JNHU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SleepTracker_Prefix-dczsngqynpghlsfrfwcajxghberd/SleepTracker_Prefix.pch -c /Users/cameronjohnson/Documents/SleepTracker/Classes/SleepDateObject.m -o /Users/cameronjohnson/Documents/SleepTracker/build/SleepTracker.build/Debug-iphoneos/SleepTracker.build/Objects-normal/armv6/SleepDateObject.o0#
+
+CCompileC build/SleepTracker.build/Debug-iphoneos/SleepTracker.build/Objects-normal/armv6/SleepTrackerAppDelegate.o /Users/cameronjohnson/Documents/SleepTracker/Classes/SleepTrackerAppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s321515160.163744
+e321515160.257721
+r1
+xCompileC
+xbuild/SleepTracker.build/Debug-iphoneos/SleepTracker.build/Objects-normal/armv6/SleepTrackerAppDelegate.o
+x/Users/cameronjohnson/Documents/SleepTracker/Classes/SleepTrackerAppDelegate.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@86"Compile /Users/cameronjohnson/Documents/SleepTracker/Classes/SleepTrackerAppDelegate.m321515160#321515160#0(0"0(0#0#78"/Users/cameronjohnson/Documents/SleepTracker/Classes/SleepTrackerAppDelegate.m8618148416#1936"    cd /Users/cameronjohnson/Documents/SleepTracker    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/cameronjohnson/Documents/SleepTracker/build/SleepTracker.build/Debug-iphoneos/SleepTracker.build/SleepTracker-generated-files.hmap -I/Users/cameronjohnson/Documents/SleepTracker/build/SleepTracker.build/Debug-iphoneos/SleepTracker.build/SleepTracker-own-target-headers.hmap -I/Users/cameronjohnson/Documents/SleepTracker/build/SleepTracker.build/Debug-iphoneos/SleepTracker.build/SleepTracker-all-target-headers.hmap -iquote /Users/cameronjohnson/Documents/SleepTracker/build/SleepTracker.build/Debug-iphoneos/SleepTracker.build/SleepTracker-project-headers.hmap -F/Users/cameronjohnson/Documents/SleepTracker/build/Debug-iphoneos -I/Users/cameronjohnson/Documents/SleepTracker/build/Debug-iphoneos/include -I/Users/cameronjohnson/Documents/SleepTracker/build/SleepTracker.build/Debug-iphoneos/SleepTracker.build/DerivedSources/armv6 -I/Users/cameronjohnson/Documents/SleepTracker/build/SleepTracker.build/Debug-iphoneos/SleepTracker.build/DerivedSources -include /var/folders/6z/6zIRSci5GweBfOveU7JNHU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SleepTracker_Prefix-dczsngqynpghlsfrfwcajxghberd/SleepTracker_Prefix.pch -c /Users/cameronjohnson/Documents/SleepTracker/Classes/SleepTrackerAppDelegate.m -o /Users/cameronjohnson/Documents/SleepTracker/build/SleepTracker.build/Debug-iphoneos/SleepTracker.build/Objects-normal/armv6/SleepTrackerAppDelegate.o0#
+
+CCompileC build/SleepTracker.build/Debug-iphoneos/SleepTracker.build/Objects-normal/armv6/SleepTrackerListViewController.o /Users/cameronjohnson/Documents/SleepTracker/Classes/SleepTrackerListViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s321668297.185348
+e321668298.878554
+r1
+xCompileC
+xbuild/SleepTracker.build/Debug-iphoneos/SleepTracker.build/Objects-normal/armv6/SleepTrackerListViewController.o
+x/Users/cameronjohnson/Documents/SleepTracker/Classes/SleepTrackerListViewController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@93"Compile /Users/cameronjohnson/Documents/SleepTracker/Classes/SleepTrackerListViewController.m321668297#321668298#0(0"0(0#0#85"/Users/cameronjohnson/Documents/SleepTracker/Classes/SleepTrackerListViewController.m3418906579030864384#1950"    cd /Users/cameronjohnson/Documents/SleepTracker    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/cameronjohnson/Documents/SleepTracker/build/SleepTracker.build/Debug-iphoneos/SleepTracker.build/SleepTracker-generated-files.hmap -I/Users/cameronjohnson/Documents/SleepTracker/build/SleepTracker.build/Debug-iphoneos/SleepTracker.build/SleepTracker-own-target-headers.hmap -I/Users/cameronjohnson/Documents/SleepTracker/build/SleepTracker.build/Debug-iphoneos/SleepTracker.build/SleepTracker-all-target-headers.hmap -iquote /Users/cameronjohnson/Documents/SleepTracker/build/SleepTracker.build/Debug-iphoneos/SleepTracker.build/SleepTracker-project-headers.hmap -F/Users/cameronjohnson/Documents/SleepTracker/build/Debug-iphoneos -I/Users/cameronjohnson/Documents/SleepTracker/build/Debug-iphoneos/include -I/Users/cameronjohnson/Documents/SleepTracker/build/SleepTracker.build/Debug-iphoneos/SleepTracker.build/DerivedSources/armv6 -I/Users/cameronjohnson/Documents/SleepTracker/build/SleepTracker.build/Debug-iphoneos/SleepTracker.build/DerivedSources -include /var/folders/6z/6zIRSci5GweBfOveU7JNHU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SleepTracker_Prefix-dczsngqynpghlsfrfwcajxghberd/SleepTracker_Prefix.pch -c /Users/cameronjohnson/Documents/SleepTracker/Classes/SleepTrackerListViewController.m -o /Users/cameronjohnson/Documents/SleepTracker/build/SleepTracker.build/Debug-iphoneos/SleepTracker.build/Objects-normal/armv6/SleepTrackerListViewController.o0#
+
+CCompileC build/SleepTracker.build/Debug-iphoneos/SleepTracker.build/Objects-normal/armv6/TrackedData.o /Users/cameronjohnson/Documents/SleepTracker/Classes/TrackedData.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s321516923.461384
+e321516923.660570
+r1
+xCompileC
+xbuild/SleepTracker.build/Debug-iphoneos/SleepTracker.build/Objects-normal/armv6/TrackedData.o
+x/Users/cameronjohnson/Documents/SleepTracker/Classes/TrackedData.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@74"Compile /Users/cameronjohnson/Documents/SleepTracker/Classes/TrackedData.m321516923#321516923#0(0"0(0#0#66"/Users/cameronjohnson/Documents/SleepTracker/Classes/TrackedData.m8621696928#1912"    cd /Users/cameronjohnson/Documents/SleepTracker    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/cameronjohnson/Documents/SleepTracker/build/SleepTracker.build/Debug-iphoneos/SleepTracker.build/SleepTracker-generated-files.hmap -I/Users/cameronjohnson/Documents/SleepTracker/build/SleepTracker.build/Debug-iphoneos/SleepTracker.build/SleepTracker-own-target-headers.hmap -I/Users/cameronjohnson/Documents/SleepTracker/build/SleepTracker.build/Debug-iphoneos/SleepTracker.build/SleepTracker-all-target-headers.hmap -iquote /Users/cameronjohnson/Documents/SleepTracker/build/SleepTracker.build/Debug-iphoneos/SleepTracker.build/SleepTracker-project-headers.hmap -F/Users/cameronjohnson/Documents/SleepTracker/build/Debug-iphoneos -I/Users/cameronjohnson/Documents/SleepTracker/build/Debug-iphoneos/include -I/Users/cameronjohnson/Documents/SleepTracker/build/SleepTracker.build/Debug-iphoneos/SleepTracker.build/DerivedSources/armv6 -I/Users/cameronjohnson/Documents/SleepTracker/build/SleepTracker.build/Debug-iphoneos/SleepTracker.build/DerivedSources -include /var/folders/6z/6zIRSci5GweBfOveU7JNHU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SleepTracker_Prefix-dczsngqynpghlsfrfwcajxghberd/SleepTracker_Prefix.pch -c /Users/cameronjohnson/Documents/SleepTracker/Classes/TrackedData.m -o /Users/cameronjohnson/Documents/SleepTracker/build/SleepTracker.build/Debug-iphoneos/SleepTracker.build/Objects-normal/armv6/TrackedData.o0#
+
+CCompileC build/SleepTracker.build/Debug-iphoneos/SleepTracker.build/Objects-normal/armv6/main.o /Users/cameronjohnson/Documents/SleepTracker/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s319689475.549443
+e319689475.896528
+r1
+xCompileC
+xbuild/SleepTracker.build/Debug-iphoneos/SleepTracker.build/Objects-normal/armv6/main.o
+x/Users/cameronjohnson/Documents/SleepTracker/main.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@59"Compile /Users/cameronjohnson/Documents/SleepTracker/main.m319689475#319689475#0(0"0(0#0#51"/Users/cameronjohnson/Documents/SleepTracker/main.m8598863616#1890"    cd /Users/cameronjohnson/Documents/SleepTracker    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/cameronjohnson/Documents/SleepTracker/build/SleepTracker.build/Debug-iphoneos/SleepTracker.build/SleepTracker-generated-files.hmap -I/Users/cameronjohnson/Documents/SleepTracker/build/SleepTracker.build/Debug-iphoneos/SleepTracker.build/SleepTracker-own-target-headers.hmap -I/Users/cameronjohnson/Documents/SleepTracker/build/SleepTracker.build/Debug-iphoneos/SleepTracker.build/SleepTracker-all-target-headers.hmap -iquote /Users/cameronjohnson/Documents/SleepTracker/build/SleepTracker.build/Debug-iphoneos/SleepTracker.build/SleepTracker-project-headers.hmap -F/Users/cameronjohnson/Documents/SleepTracker/build/Debug-iphoneos -I/Users/cameronjohnson/Documents/SleepTracker/build/Debug-iphoneos/include -I/Users/cameronjohnson/Documents/SleepTracker/build/SleepTracker.build/Debug-iphoneos/SleepTracker.build/DerivedSources/armv6 -I/Users/cameronjohnson/Documents/SleepTracker/build/SleepTracker.build/Debug-iphoneos/SleepTracker.build/DerivedSources -include /var/folders/6z/6zIRSci5GweBfOveU7JNHU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SleepTracker_Prefix-dczsngqynpghlsfrfwcajxghberd/SleepTracker_Prefix.pch -c /Users/cameronjohnson/Documents/SleepTracker/main.m -o /Users/cameronjohnson/Documents/SleepTracker/build/SleepTracker.build/Debug-iphoneos/SleepTracker.build/Objects-normal/armv6/main.o0#
+
+CCompileC build/SleepTracker.build/Debug-iphoneos/SleepTracker.build/Objects-normal/armv7/Alarm.o /Users/cameronjohnson/Documents/SleepTracker/Classes/Alarm.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s321072799.647078
+e321072799.738137
+r1
+xCompileC
+xbuild/SleepTracker.build/Debug-iphoneos/SleepTracker.build/Objects-normal/armv7/Alarm.o
+x/Users/cameronjohnson/Documents/SleepTracker/Classes/Alarm.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@68"Compile /Users/cameronjohnson/Documents/SleepTracker/Classes/Alarm.m321072799#321072799#0(0"0(0#0#60"/Users/cameronjohnson/Documents/SleepTracker/Classes/Alarm.m8613496416#1900"    cd /Users/cameronjohnson/Documents/SleepTracker    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/cameronjohnson/Documents/SleepTracker/build/SleepTracker.build/Debug-iphoneos/SleepTracker.build/SleepTracker-generated-files.hmap -I/Users/cameronjohnson/Documents/SleepTracker/build/SleepTracker.build/Debug-iphoneos/SleepTracker.build/SleepTracker-own-target-headers.hmap -I/Users/cameronjohnson/Documents/SleepTracker/build/SleepTracker.build/Debug-iphoneos/SleepTracker.build/SleepTracker-all-target-headers.hmap -iquote /Users/cameronjohnson/Documents/SleepTracker/build/SleepTracker.build/Debug-iphoneos/SleepTracker.build/SleepTracker-project-headers.hmap -F/Users/cameronjohnson/Documents/SleepTracker/build/Debug-iphoneos -I/Users/cameronjohnson/Documents/SleepTracker/build/Debug-iphoneos/include -I/Users/cameronjohnson/Documents/SleepTracker/build/SleepTracker.build/Debug-iphoneos/SleepTracker.build/DerivedSources/armv7 -I/Users/cameronjohnson/Documents/SleepTracker/build/SleepTracker.build/Debug-iphoneos/SleepTracker.build/DerivedSources -include /var/folders/6z/6zIRSci5GweBfOveU7JNHU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SleepTracker_Prefix-bxvhiwxnbwykqwbztdejehsldjji/SleepTracker_Prefix.pch -c /Users/cameronjohnson/Documents/SleepTracker/Classes/Alarm.m -o /Users/cameronjohnson/Documents/SleepTracker/build/SleepTracker.build/Debug-iphoneos/SleepTracker.build/Objects-normal/armv7/Alarm.o0#
+
+CCompileC build/SleepTracker.build/Debug-iphoneos/SleepTracker.build/Objects-normal/armv7/AlarmSetter.o /Users/cameronjohnson/Documents/SleepTracker/Classes/AlarmSetter.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s319703332.304682
+e319703332.433619
+r1
+xCompileC
+xbuild/SleepTracker.build/Debug-iphoneos/SleepTracker.build/Objects-normal/armv7/AlarmSetter.o
+x/Users/cameronjohnson/Documents/SleepTracker/Classes/AlarmSetter.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@74"Compile /Users/cameronjohnson/Documents/SleepTracker/Classes/AlarmSetter.m319703332#319703332#0(0"0(0#0#66"/Users/cameronjohnson/Documents/SleepTracker/Classes/AlarmSetter.m8634139648#1912"    cd /Users/cameronjohnson/Documents/SleepTracker    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/cameronjohnson/Documents/SleepTracker/build/SleepTracker.build/Debug-iphoneos/SleepTracker.build/SleepTracker-generated-files.hmap -I/Users/cameronjohnson/Documents/SleepTracker/build/SleepTracker.build/Debug-iphoneos/SleepTracker.build/SleepTracker-own-target-headers.hmap -I/Users/cameronjohnson/Documents/SleepTracker/build/SleepTracker.build/Debug-iphoneos/SleepTracker.build/SleepTracker-all-target-headers.hmap -iquote /Users/cameronjohnson/Documents/SleepTracker/build/SleepTracker.build/Debug-iphoneos/SleepTracker.build/SleepTracker-project-headers.hmap -F/Users/cameronjohnson/Documents/SleepTracker/build/Debug-iphoneos -I/Users/cameronjohnson/Documents/SleepTracker/build/Debug-iphoneos/include -I/Users/cameronjohnson/Documents/SleepTracker/build/SleepTracker.build/Debug-iphoneos/SleepTracker.build/DerivedSources/armv7 -I/Users/cameronjohnson/Documents/SleepTracker/build/SleepTracker.build/Debug-iphoneos/SleepTracker.build/DerivedSources -include /var/folders/6z/6zIRSci5GweBfOveU7JNHU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SleepTracker_Prefix-bxvhiwxnbwykqwbztdejehsldjji/SleepTracker_Prefix.pch -c /Users/cameronjohnson/Documents/SleepTracker/Classes/AlarmSetter.m -o /Users/cameronjohnson/Documents/SleepTracker/build/SleepTracker.build/Debug-iphoneos/SleepTracker.build/Objects-normal/armv7/AlarmSetter.o0#
+
+CCompileC build/SleepTracker.build/Debug-iphoneos/SleepTracker.build/Objects-normal/armv7/AlarmSetterView.o /Users/cameronjohnson/Documents/SleepTracker/Classes/AlarmSetterView.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s319705298.652772
+e319705298.729054
+r1
+xCompileC
+xbuild/SleepTracker.build/Debug-iphoneos/SleepTracker.build/Objects-normal/armv7/AlarmSetterView.o
+x/Users/cameronjohnson/Documents/SleepTracker/Classes/AlarmSetterView.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@78"Compile /Users/cameronjohnson/Documents/SleepTracker/Classes/AlarmSetterView.m319705298#319705298#0(0"0(0#0#70"/Users/cameronjohnson/Documents/SleepTracker/Classes/AlarmSetterView.m8636871200#1920"    cd /Users/cameronjohnson/Documents/SleepTracker    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/cameronjohnson/Documents/SleepTracker/build/SleepTracker.build/Debug-iphoneos/SleepTracker.build/SleepTracker-generated-files.hmap -I/Users/cameronjohnson/Documents/SleepTracker/build/SleepTracker.build/Debug-iphoneos/SleepTracker.build/SleepTracker-own-target-headers.hmap -I/Users/cameronjohnson/Documents/SleepTracker/build/SleepTracker.build/Debug-iphoneos/SleepTracker.build/SleepTracker-all-target-headers.hmap -iquote /Users/cameronjohnson/Documents/SleepTracker/build/SleepTracker.build/Debug-iphoneos/SleepTracker.build/SleepTracker-project-headers.hmap -F/Users/cameronjohnson/Documents/SleepTracker/build/Debug-iphoneos -I/Users/cameronjohnson/Documents/SleepTracker/build/Debug-iphoneos/include -I/Users/cameronjohnson/Documents/SleepTracker/build/SleepTracker.build/Debug-iphoneos/SleepTracker.build/DerivedSources/armv7 -I/Users/cameronjohnson/Documents/SleepTracker/build/SleepTracker.build/Debug-iphoneos/SleepTracker.build/DerivedSources -include /var/folders/6z/6zIRSci5GweBfOveU7JNHU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SleepTracker_Prefix-bxvhiwxnbwykqwbztdejehsldjji/SleepTracker_Prefix.pch -c /Users/cameronjohnson/Documents/SleepTracker/Classes/AlarmSetterView.m -o /Users/cameronjohnson/Documents/SleepTracker/build/SleepTracker.build/Debug-iphoneos/SleepTracker.build/Objects-normal/armv7/AlarmSetterView.o0#
+
+CCompileC build/SleepTracker.build/Debug-iphoneos/SleepTracker.build/Objects-normal/armv7/ClockViewController.o /Users/cameronjohnson/Documents/SleepTracker/Classes/ClockViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s321516923.587387
+e321516923.807079
+r1
+xCompileC
+xbuild/SleepTracker.build/Debug-iphoneos/SleepTracker.build/Objects-normal/armv7/ClockViewController.o
+x/Users/cameronjohnson/Documents/SleepTracker/Classes/ClockViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@82"Compile /Users/cameronjohnson/Documents/SleepTracker/Classes/ClockViewController.m321516923#321516923#0(0"0(0#0#74"/Users/cameronjohnson/Documents/SleepTracker/Classes/ClockViewController.m8619724544#1928"    cd /Users/cameronjohnson/Documents/SleepTracker    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/cameronjohnson/Documents/SleepTracker/build/SleepTracker.build/Debug-iphoneos/SleepTracker.build/SleepTracker-generated-files.hmap -I/Users/cameronjohnson/Documents/SleepTracker/build/SleepTracker.build/Debug-iphoneos/SleepTracker.build/SleepTracker-own-target-headers.hmap -I/Users/cameronjohnson/Documents/SleepTracker/build/SleepTracker.build/Debug-iphoneos/SleepTracker.build/SleepTracker-all-target-headers.hmap -iquote /Users/cameronjohnson/Documents/SleepTracker/build/SleepTracker.build/Debug-iphoneos/SleepTracker.build/SleepTracker-project-headers.hmap -F/Users/cameronjohnson/Documents/SleepTracker/build/Debug-iphoneos -I/Users/cameronjohnson/Documents/SleepTracker/build/Debug-iphoneos/include -I/Users/cameronjohnson/Documents/SleepTracker/build/SleepTracker.build/Debug-iphoneos/SleepTracker.build/DerivedSources/armv7 -I/Users/cameronjohnson/Documents/SleepTracker/build/SleepTracker.build/Debug-iphoneos/SleepTracker.build/DerivedSources -include /var/folders/6z/6zIRSci5GweBfOveU7JNHU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SleepTracker_Prefix-bxvhiwxnbwykqwbztdejehsldjji/SleepTracker_Prefix.pch -c /Users/cameronjohnson/Documents/SleepTracker/Classes/ClockViewController.m -o /Users/cameronjohnson/Documents/SleepTracker/build/SleepTracker.build/Debug-iphoneos/SleepTracker.build/Objects-normal/armv7/ClockViewController.o0#
+
+CCompileC build/SleepTracker.build/Debug-iphoneos/SleepTracker.build/Objects-normal/armv7/DateAndTime.o /Users/cameronjohnson/Documents/SleepTracker/Classes/DateAndTime.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s319949415.853103
+e319949415.924844
+r1
+xCompileC
+xbuild/SleepTracker.build/Debug-iphoneos/SleepTracker.build/Objects-normal/armv7/DateAndTime.o
+x/Users/cameronjohnson/Documents/SleepTracker/Classes/DateAndTime.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@74"Compile /Users/cameronjohnson/Documents/SleepTracker/Classes/DateAndTime.m319949415#319949415#0(0"0(0#0#66"/Users/cameronjohnson/Documents/SleepTracker/Classes/DateAndTime.m8623575328#1912"    cd /Users/cameronjohnson/Documents/SleepTracker    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/cameronjohnson/Documents/SleepTracker/build/SleepTracker.build/Debug-iphoneos/SleepTracker.build/SleepTracker-generated-files.hmap -I/Users/cameronjohnson/Documents/SleepTracker/build/SleepTracker.build/Debug-iphoneos/SleepTracker.build/SleepTracker-own-target-headers.hmap -I/Users/cameronjohnson/Documents/SleepTracker/build/SleepTracker.build/Debug-iphoneos/SleepTracker.build/SleepTracker-all-target-headers.hmap -iquote /Users/cameronjohnson/Documents/SleepTracker/build/SleepTracker.build/Debug-iphoneos/SleepTracker.build/SleepTracker-project-headers.hmap -F/Users/cameronjohnson/Documents/SleepTracker/build/Debug-iphoneos -I/Users/cameronjohnson/Documents/SleepTracker/build/Debug-iphoneos/include -I/Users/cameronjohnson/Documents/SleepTracker/build/SleepTracker.build/Debug-iphoneos/SleepTracker.build/DerivedSources/armv7 -I/Users/cameronjohnson/Documents/SleepTracker/build/SleepTracker.build/Debug-iphoneos/SleepTracker.build/DerivedSources -include /var/folders/6z/6zIRSci5GweBfOveU7JNHU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SleepTracker_Prefix-bxvhiwxnbwykqwbztdejehsldjji/SleepTracker_Prefix.pch -c /Users/cameronjohnson/Documents/SleepTracker/Classes/DateAndTime.m -o /Users/cameronjohnson/Documents/SleepTracker/build/SleepTracker.build/Debug-iphoneos/SleepTracker.build/Objects-normal/armv7/DateAndTime.o0#
+
+CCompileC build/SleepTracker.build/Debug-iphoneos/SleepTracker.build/Objects-normal/armv7/FirstViewController.o /Users/cameronjohnson/Documents/SleepTracker/Classes/FirstViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s319689476.053556
+e319689476.113753
+r1
+xCompileC
+xbuild/SleepTracker.build/Debug-iphoneos/SleepTracker.build/Objects-normal/armv7/FirstViewController.o
+x/Users/cameronjohnson/Documents/SleepTracker/Classes/FirstViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@82"Compile /Users/cameronjohnson/Documents/SleepTracker/Classes/FirstViewController.m319689476#319689476#0(0"0(0#0#74"/Users/cameronjohnson/Documents/SleepTracker/Classes/FirstViewController.m8606474880#1928"    cd /Users/cameronjohnson/Documents/SleepTracker    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/cameronjohnson/Documents/SleepTracker/build/SleepTracker.build/Debug-iphoneos/SleepTracker.build/SleepTracker-generated-files.hmap -I/Users/cameronjohnson/Documents/SleepTracker/build/SleepTracker.build/Debug-iphoneos/SleepTracker.build/SleepTracker-own-target-headers.hmap -I/Users/cameronjohnson/Documents/SleepTracker/build/SleepTracker.build/Debug-iphoneos/SleepTracker.build/SleepTracker-all-target-headers.hmap -iquote /Users/cameronjohnson/Documents/SleepTracker/build/SleepTracker.build/Debug-iphoneos/SleepTracker.build/SleepTracker-project-headers.hmap -F/Users/cameronjohnson/Documents/SleepTracker/build/Debug-iphoneos -I/Users/cameronjohnson/Documents/SleepTracker/build/Debug-iphoneos/include -I/Users/cameronjohnson/Documents/SleepTracker/build/SleepTracker.build/Debug-iphoneos/SleepTracker.build/DerivedSources/armv7 -I/Users/cameronjohnson/Documents/SleepTracker/build/SleepTracker.build/Debug-iphoneos/SleepTracker.build/DerivedSources -include /var/folders/6z/6zIRSci5GweBfOveU7JNHU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SleepTracker_Prefix-bxvhiwxnbwykqwbztdejehsldjji/SleepTracker_Prefix.pch -c /Users/cameronjohnson/Documents/SleepTracker/Classes/FirstViewController.m -o /Users/cameronjohnson/Documents/SleepTracker/build/SleepTracker.build/Debug-iphoneos/SleepTracker.build/Objects-normal/armv7/FirstViewController.o0#
+
+CCompileC build/SleepTracker.build/Debug-iphoneos/SleepTracker.build/Objects-normal/armv7/MusicPlayer.o /Users/cameronjohnson/Documents/SleepTracker/Classes/MusicPlayer.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s319966656.152820
+e319966656.243568
+r1
+xCompileC
+xbuild/SleepTracker.build/Debug-iphoneos/SleepTracker.build/Objects-normal/armv7/MusicPlayer.o
+x/Users/cameronjohnson/Documents/SleepTracker/Classes/MusicPlayer.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/cameronjohnson/Documents/SleepTracker/Classes/MusicPlayer.m:89: warning: incomplete implementation of class 'MusicPlayer'
+o/Users/cameronjohnson/Documents/SleepTracker/Classes/MusicPlayer.m:89: warning: method definition for '-startMusic' not found
+lSLF07#2@74"Compile /Users/cameronjohnson/Documents/SleepTracker/Classes/MusicPlayer.m319966656#319966656#0(255"/Users/cameronjohnson/Documents/SleepTracker/Classes/MusicPlayer.m:89: warning: incomplete implementation of class 'MusicPlayer'/Users/cameronjohnson/Documents/SleepTracker/Classes/MusicPlayer.m:89: warning: method definition for '-startMusic' not found2(22@48"Incomplete implementation of class 'MusicPlayer'319966656#0#129#0(6@66"/Users/cameronjohnson/Documents/SleepTracker/Classes/MusicPlayer.m319966623#89#0#89#0#38"incomplete implementation of class '*'0(22@45"Method definition for '-startMusic' not found319966656#129#126#0(6@66"/Users/cameronjohnson/Documents/SleepTracker/Classes/MusicPlayer.m319966623#89#0#89#0#35"method definition for '*' not found0(0#0#66"/Users/cameronjohnson/Documents/SleepTracker/Classes/MusicPlayer.m8630661792#1912"    cd /Users/cameronjohnson/Documents/SleepTracker    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/cameronjohnson/Documents/SleepTracker/build/SleepTracker.build/Debug-iphoneos/SleepTracker.build/SleepTracker-generated-files.hmap -I/Users/cameronjohnson/Documents/SleepTracker/build/SleepTracker.build/Debug-iphoneos/SleepTracker.build/SleepTracker-own-target-headers.hmap -I/Users/cameronjohnson/Documents/SleepTracker/build/SleepTracker.build/Debug-iphoneos/SleepTracker.build/SleepTracker-all-target-headers.hmap -iquote /Users/cameronjohnson/Documents/SleepTracker/build/SleepTracker.build/Debug-iphoneos/SleepTracker.build/SleepTracker-project-headers.hmap -F/Users/cameronjohnson/Documents/SleepTracker/build/Debug-iphoneos -I/Users/cameronjohnson/Documents/SleepTracker/build/Debug-iphoneos/include -I/Users/cameronjohnson/Documents/SleepTracker/build/SleepTracker.build/Debug-iphoneos/SleepTracker.build/DerivedSources/armv7 -I/Users/cameronjohnson/Documents/SleepTracker/build/SleepTracker.build/Debug-iphoneos/SleepTracker.build/DerivedSources -include /var/folders/6z/6zIRSci5GweBfOveU7JNHU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SleepTracker_Prefix-bxvhiwxnbwykqwbztdejehsldjji/SleepTracker_Prefix.pch -c /Users/cameronjohnson/Documents/SleepTracker/Classes/MusicPlayer.m -o /Users/cameronjohnson/Documents/SleepTracker/build/SleepTracker.build/Debug-iphoneos/SleepTracker.build/Objects-normal/armv7/MusicPlayer.o0#
+
+CCompileC build/SleepTracker.build/Debug-iphoneos/SleepTracker.build/Objects-normal/armv7/SleepDateObject.o /Users/cameronjohnson/Documents/SleepTracker/Classes/SleepDateObject.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s321518415.752576
+e321518415.819586
+r1
+xCompileC
+xbuild/SleepTracker.build/Debug-iphoneos/SleepTracker.build/Objects-normal/armv7/SleepDateObject.o
+x/Users/cameronjohnson/Documents/SleepTracker/Classes/SleepDateObject.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@78"Compile /Users/cameronjohnson/Documents/SleepTracker/Classes/SleepDateObject.m321518415#321518415#0(0"0(0#0#70"/Users/cameronjohnson/Documents/SleepTracker/Classes/SleepDateObject.m8620903136#1920"    cd /Users/cameronjohnson/Documents/SleepTracker    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/cameronjohnson/Documents/SleepTracker/build/SleepTracker.build/Debug-iphoneos/SleepTracker.build/SleepTracker-generated-files.hmap -I/Users/cameronjohnson/Documents/SleepTracker/build/SleepTracker.build/Debug-iphoneos/SleepTracker.build/SleepTracker-own-target-headers.hmap -I/Users/cameronjohnson/Documents/SleepTracker/build/SleepTracker.build/Debug-iphoneos/SleepTracker.build/SleepTracker-all-target-headers.hmap -iquote /Users/cameronjohnson/Documents/SleepTracker/build/SleepTracker.build/Debug-iphoneos/SleepTracker.build/SleepTracker-project-headers.hmap -F/Users/cameronjohnson/Documents/SleepTracker/build/Debug-iphoneos -I/Users/cameronjohnson/Documents/SleepTracker/build/Debug-iphoneos/include -I/Users/cameronjohnson/Documents/SleepTracker/build/SleepTracker.build/Debug-iphoneos/SleepTracker.build/DerivedSources/armv7 -I/Users/cameronjohnson/Documents/SleepTracker/build/SleepTracker.build/Debug-iphoneos/SleepTracker.build/DerivedSources -include /var/folders/6z/6zIRSci5GweBfOveU7JNHU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SleepTracker_Prefix-bxvhiwxnbwykqwbztdejehsldjji/SleepTracker_Prefix.pch -c /Users/cameronjohnson/Documents/SleepTracker/Classes/SleepDateObject.m -o /Users/cameronjohnson/Documents/SleepTracker/build/SleepTracker.build/Debug-iphoneos/SleepTracker.build/Objects-normal/armv7/SleepDateObject.o0#
+
+CCompileC build/SleepTracker.build/Debug-iphoneos/SleepTracker.build/Objects-normal/armv7/SleepTrackerAppDelegate.o /Users/cameronjohnson/Documents/SleepTracker/Classes/SleepTrackerAppDelegate.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s321515160.239235
+e321515160.345434
+r1
+xCompileC
+xbuild/SleepTracker.build/Debug-iphoneos/SleepTracker.build/Objects-normal/armv7/SleepTrackerAppDelegate.o
+x/Users/cameronjohnson/Documents/SleepTracker/Classes/SleepTrackerAppDelegate.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@86"Compile /Users/cameronjohnson/Documents/SleepTracker/Classes/SleepTrackerAppDelegate.m321515160#321515160#0(0"0(0#0#78"/Users/cameronjohnson/Documents/SleepTracker/Classes/SleepTrackerAppDelegate.m8619099872#1936"    cd /Users/cameronjohnson/Documents/SleepTracker    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/cameronjohnson/Documents/SleepTracker/build/SleepTracker.build/Debug-iphoneos/SleepTracker.build/SleepTracker-generated-files.hmap -I/Users/cameronjohnson/Documents/SleepTracker/build/SleepTracker.build/Debug-iphoneos/SleepTracker.build/SleepTracker-own-target-headers.hmap -I/Users/cameronjohnson/Documents/SleepTracker/build/SleepTracker.build/Debug-iphoneos/SleepTracker.build/SleepTracker-all-target-headers.hmap -iquote /Users/cameronjohnson/Documents/SleepTracker/build/SleepTracker.build/Debug-iphoneos/SleepTracker.build/SleepTracker-project-headers.hmap -F/Users/cameronjohnson/Documents/SleepTracker/build/Debug-iphoneos -I/Users/cameronjohnson/Documents/SleepTracker/build/Debug-iphoneos/include -I/Users/cameronjohnson/Documents/SleepTracker/build/SleepTracker.build/Debug-iphoneos/SleepTracker.build/DerivedSources/armv7 -I/Users/cameronjohnson/Documents/SleepTracker/build/SleepTracker.build/Debug-iphoneos/SleepTracker.build/DerivedSources -include /var/folders/6z/6zIRSci5GweBfOveU7JNHU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SleepTracker_Prefix-bxvhiwxnbwykqwbztdejehsldjji/SleepTracker_Prefix.pch -c /Users/cameronjohnson/Documents/SleepTracker/Classes/SleepTrackerAppDelegate.m -o /Users/cameronjohnson/Documents/SleepTracker/build/SleepTracker.build/Debug-iphoneos/SleepTracker.build/Objects-normal/armv7/SleepTrackerAppDelegate.o0#
+
+CCompileC build/SleepTracker.build/Debug-iphoneos/SleepTracker.build/Objects-normal/armv7/SleepTrackerListViewController.o /Users/cameronjohnson/Documents/SleepTracker/Classes/SleepTrackerListViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s321668297.187902
+e321668298.930758
+r1
+xCompileC
+xbuild/SleepTracker.build/Debug-iphoneos/SleepTracker.build/Objects-normal/armv7/SleepTrackerListViewController.o
+x/Users/cameronjohnson/Documents/SleepTracker/Classes/SleepTrackerListViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@93"Compile /Users/cameronjohnson/Documents/SleepTracker/Classes/SleepTrackerListViewController.m321668297#321668299#0(0"0(0#0#85"/Users/cameronjohnson/Documents/SleepTracker/Classes/SleepTrackerListViewController.m8593813792#1950"    cd /Users/cameronjohnson/Documents/SleepTracker    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/cameronjohnson/Documents/SleepTracker/build/SleepTracker.build/Debug-iphoneos/SleepTracker.build/SleepTracker-generated-files.hmap -I/Users/cameronjohnson/Documents/SleepTracker/build/SleepTracker.build/Debug-iphoneos/SleepTracker.build/SleepTracker-own-target-headers.hmap -I/Users/cameronjohnson/Documents/SleepTracker/build/SleepTracker.build/Debug-iphoneos/SleepTracker.build/SleepTracker-all-target-headers.hmap -iquote /Users/cameronjohnson/Documents/SleepTracker/build/SleepTracker.build/Debug-iphoneos/SleepTracker.build/SleepTracker-project-headers.hmap -F/Users/cameronjohnson/Documents/SleepTracker/build/Debug-iphoneos -I/Users/cameronjohnson/Documents/SleepTracker/build/Debug-iphoneos/include -I/Users/cameronjohnson/Documents/SleepTracker/build/SleepTracker.build/Debug-iphoneos/SleepTracker.build/DerivedSources/armv7 -I/Users/cameronjohnson/Documents/SleepTracker/build/SleepTracker.build/Debug-iphoneos/SleepTracker.build/DerivedSources -include /var/folders/6z/6zIRSci5GweBfOveU7JNHU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SleepTracker_Prefix-bxvhiwxnbwykqwbztdejehsldjji/SleepTracker_Prefix.pch -c /Users/cameronjohnson/Documents/SleepTracker/Classes/SleepTrackerListViewController.m -o /Users/cameronjohnson/Documents/SleepTracker/build/SleepTracker.build/Debug-iphoneos/SleepTracker.build/Objects-normal/armv7/SleepTrackerListViewController.o0#
+
+CCompileC build/SleepTracker.build/Debug-iphoneos/SleepTracker.build/Objects-normal/armv7/TrackedData.o /Users/cameronjohnson/Documents/SleepTracker/Classes/TrackedData.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s321516923.699148
+e321516923.788195
+r1
+xCompileC
+xbuild/SleepTracker.build/Debug-iphoneos/SleepTracker.build/Objects-normal/armv7/TrackedData.o
+x/Users/cameronjohnson/Documents/SleepTracker/Classes/TrackedData.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@74"Compile /Users/cameronjohnson/Documents/SleepTracker/Classes/TrackedData.m321516923#321516923#0(0"0(0#0#66"/Users/cameronjohnson/Documents/SleepTracker/Classes/TrackedData.m8619770560#1912"    cd /Users/cameronjohnson/Documents/SleepTracker    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/cameronjohnson/Documents/SleepTracker/build/SleepTracker.build/Debug-iphoneos/SleepTracker.build/SleepTracker-generated-files.hmap -I/Users/cameronjohnson/Documents/SleepTracker/build/SleepTracker.build/Debug-iphoneos/SleepTracker.build/SleepTracker-own-target-headers.hmap -I/Users/cameronjohnson/Documents/SleepTracker/build/SleepTracker.build/Debug-iphoneos/SleepTracker.build/SleepTracker-all-target-headers.hmap -iquote /Users/cameronjohnson/Documents/SleepTracker/build/SleepTracker.build/Debug-iphoneos/SleepTracker.build/SleepTracker-project-headers.hmap -F/Users/cameronjohnson/Documents/SleepTracker/build/Debug-iphoneos -I/Users/cameronjohnson/Documents/SleepTracker/build/Debug-iphoneos/include -I/Users/cameronjohnson/Documents/SleepTracker/build/SleepTracker.build/Debug-iphoneos/SleepTracker.build/DerivedSources/armv7 -I/Users/cameronjohnson/Documents/SleepTracker/build/SleepTracker.build/Debug-iphoneos/SleepTracker.build/DerivedSources -include /var/folders/6z/6zIRSci5GweBfOveU7JNHU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SleepTracker_Prefix-bxvhiwxnbwykqwbztdejehsldjji/SleepTracker_Prefix.pch -c /Users/cameronjohnson/Documents/SleepTracker/Classes/TrackedData.m -o /Users/cameronjohnson/Documents/SleepTracker/build/SleepTracker.build/Debug-iphoneos/SleepTracker.build/Objects-normal/armv7/TrackedData.o0#
+
+CCompileC build/SleepTracker.build/Debug-iphoneos/SleepTracker.build/Objects-normal/armv7/main.o /Users/cameronjohnson/Documents/SleepTracker/main.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s319689475.915625
+e319689475.973314
+r1
+xCompileC
+xbuild/SleepTracker.build/Debug-iphoneos/SleepTracker.build/Objects-normal/armv7/main.o
+x/Users/cameronjohnson/Documents/SleepTracker/main.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@59"Compile /Users/cameronjohnson/Documents/SleepTracker/main.m319689475#319689475#0(0"0(0#0#51"/Users/cameronjohnson/Documents/SleepTracker/main.m8612052480#1890"    cd /Users/cameronjohnson/Documents/SleepTracker    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/cameronjohnson/Documents/SleepTracker/build/SleepTracker.build/Debug-iphoneos/SleepTracker.build/SleepTracker-generated-files.hmap -I/Users/cameronjohnson/Documents/SleepTracker/build/SleepTracker.build/Debug-iphoneos/SleepTracker.build/SleepTracker-own-target-headers.hmap -I/Users/cameronjohnson/Documents/SleepTracker/build/SleepTracker.build/Debug-iphoneos/SleepTracker.build/SleepTracker-all-target-headers.hmap -iquote /Users/cameronjohnson/Documents/SleepTracker/build/SleepTracker.build/Debug-iphoneos/SleepTracker.build/SleepTracker-project-headers.hmap -F/Users/cameronjohnson/Documents/SleepTracker/build/Debug-iphoneos -I/Users/cameronjohnson/Documents/SleepTracker/build/Debug-iphoneos/include -I/Users/cameronjohnson/Documents/SleepTracker/build/SleepTracker.build/Debug-iphoneos/SleepTracker.build/DerivedSources/armv7 -I/Users/cameronjohnson/Documents/SleepTracker/build/SleepTracker.build/Debug-iphoneos/SleepTracker.build/DerivedSources -include /var/folders/6z/6zIRSci5GweBfOveU7JNHU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SleepTracker_Prefix-bxvhiwxnbwykqwbztdejehsldjji/SleepTracker_Prefix.pch -c /Users/cameronjohnson/Documents/SleepTracker/main.m -o /Users/cameronjohnson/Documents/SleepTracker/build/SleepTracker.build/Debug-iphoneos/SleepTracker.build/Objects-normal/armv7/main.o0#
+
+CCompileXIB /Users/cameronjohnson/Documents/SleepTracker/Classes/AlarmSetter.xib
+s319703366.598413
+e319703367.070007
+r1
+xCompileXIB
+x/Users/cameronjohnson/Documents/SleepTracker/Classes/AlarmSetter.xib
+lSLF07#2@34"CompileXIB Classes/AlarmSetter.xib319703366#319703367#0(0"0(0#0#68"/Users/cameronjohnson/Documents/SleepTracker/Classes/AlarmSetter.xib8631740608#575"    cd /Users/cameronjohnson/Documents/SleepTracker    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/cameronjohnson/Documents/SleepTracker/build/Debug-iphoneos/SleepTracker.app/AlarmSetter.nib /Users/cameronjohnson/Documents/SleepTracker/Classes/AlarmSetter.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk0#
+
+CCompileXIB /Users/cameronjohnson/Documents/SleepTracker/Classes/AlarmSetterView.xib
+s319962350.148471
+e319962350.577420
+r1
+xCompileXIB
+x/Users/cameronjohnson/Documents/SleepTracker/Classes/AlarmSetterView.xib
+oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
+lSLF07#2@38"CompileXIB Classes/AlarmSetterView.xib319962350#319962350#0(84"Couldn't open shared capabilities memory GSCapabilities (No such file or directory)0(0#0#72"/Users/cameronjohnson/Documents/SleepTracker/Classes/AlarmSetterView.xib8620025888#583"    cd /Users/cameronjohnson/Documents/SleepTracker    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/cameronjohnson/Documents/SleepTracker/build/Debug-iphoneos/SleepTracker.app/AlarmSetterView.nib /Users/cameronjohnson/Documents/SleepTracker/Classes/AlarmSetterView.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk0#
+
+CCompileXIB /Users/cameronjohnson/Documents/SleepTracker/Classes/SleepTrackerListViewController.xib
+s321489370.948253
+e321489371.612981
+r1
+xCompileXIB
+x/Users/cameronjohnson/Documents/SleepTracker/Classes/SleepTrackerListViewController.xib
+lSLF07#2@53"CompileXIB Classes/SleepTrackerListViewController.xib321489370#321489371#0(0"0(0#0#87"/Users/cameronjohnson/Documents/SleepTracker/Classes/SleepTrackerListViewController.xib8606322464#613"    cd /Users/cameronjohnson/Documents/SleepTracker    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/cameronjohnson/Documents/SleepTracker/build/Debug-iphoneos/SleepTracker.app/SleepTrackerListViewController.nib /Users/cameronjohnson/Documents/SleepTracker/Classes/SleepTrackerListViewController.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk0#
+
+CCompileXIB /Users/cameronjohnson/Documents/SleepTracker/ClockView.xib
+s321077513.115500
+e321077513.636508
+r1
+xCompileXIB
+x/Users/cameronjohnson/Documents/SleepTracker/ClockView.xib
+lSLF07#2@24"CompileXIB ClockView.xib321077513#321077513#0(0"0(0#0#58"/Users/cameronjohnson/Documents/SleepTracker/ClockView.xib8633187360#563"    cd /Users/cameronjohnson/Documents/SleepTracker    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/cameronjohnson/Documents/SleepTracker/build/Debug-iphoneos/SleepTracker.app/ClockView.nib /Users/cameronjohnson/Documents/SleepTracker/ClockView.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk0#
+
+CCompileXIB /Users/cameronjohnson/Documents/SleepTracker/FirstView.xib
+s319689473.876723
+e319689474.329473
+r1
+xCompileXIB
+x/Users/cameronjohnson/Documents/SleepTracker/FirstView.xib
+lSLF07#2@24"CompileXIB FirstView.xib319689473#319689474#0(0"0(0#0#58"/Users/cameronjohnson/Documents/SleepTracker/FirstView.xib8603771104#563"    cd /Users/cameronjohnson/Documents/SleepTracker    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/cameronjohnson/Documents/SleepTracker/build/Debug-iphoneos/SleepTracker.app/FirstView.nib /Users/cameronjohnson/Documents/SleepTracker/FirstView.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk0#
+
+CCompileXIB /Users/cameronjohnson/Documents/SleepTracker/MainWindow.xib
+s321513867.525019
+e321513867.933302
+r1
+xCompileXIB
+x/Users/cameronjohnson/Documents/SleepTracker/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib321513867#321513867#0(0"0(0#0#59"/Users/cameronjohnson/Documents/SleepTracker/MainWindow.xib8618883296#565"    cd /Users/cameronjohnson/Documents/SleepTracker    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/cameronjohnson/Documents/SleepTracker/build/Debug-iphoneos/SleepTracker.app/MainWindow.nib /Users/cameronjohnson/Documents/SleepTracker/MainWindow.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk0#
+
+CCompileXIB /Users/cameronjohnson/Documents/SleepTracker/SecondView.xib
+s319689473.447906
+e319689473.958069
+r1
+xCompileXIB
+x/Users/cameronjohnson/Documents/SleepTracker/SecondView.xib
+lSLF07#2@25"CompileXIB SecondView.xib319689473#319689473#0(0"0(0#0#59"/Users/cameronjohnson/Documents/SleepTracker/SecondView.xib8611187712#565"    cd /Users/cameronjohnson/Documents/SleepTracker    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/cameronjohnson/Documents/SleepTracker/build/Debug-iphoneos/SleepTracker.app/SecondView.nib /Users/cameronjohnson/Documents/SleepTracker/SecondView.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk0#
+
+CCpResource build/Debug-iphoneos/SleepTracker.app/RapidFire.wav RapidFire.wav
+s320901701.662214
+e320901701.668379
+r1
+xCpResource
+xbuild/Debug-iphoneos/SleepTracker.app/RapidFire.wav
+xRapidFire.wav
+lSLF07#2@18"Copy RapidFire.wav320901701#320901701#0(0"0(0#0#58"/Users/cameronjohnson/Documents/SleepTracker/RapidFire.wav8618874176#480"    cd /Users/cameronjohnson/Documents/SleepTracker    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/cameronjohnson/Documents/SleepTracker/RapidFire.wav /Users/cameronjohnson/Documents/SleepTracker/build/Debug-iphoneos/SleepTracker.app0#
+
+CCpResource build/Debug-iphoneos/SleepTracker.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+s319689473.398402
+e319689473.447087
+r1
+xCpResource
+xbuild/Debug-iphoneos/SleepTracker.app/ResourceRules.plist
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+lSLF07#2@94"Copy /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist319689473#319689473#0(0"0(0#0#89"/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist8610684096#511"    cd /Users/cameronjohnson/Documents/SleepTracker    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist /Users/cameronjohnson/Documents/SleepTracker/build/Debug-iphoneos/SleepTracker.app0#
+
+CCpResource build/Debug-iphoneos/SleepTracker.app/Robby.wav Robby.wav
+s321074210.388278
+e321074210.396128
+r1
+xCpResource
+xbuild/Debug-iphoneos/SleepTracker.app/Robby.wav
+xRobby.wav
+lSLF07#2@14"Copy Robby.wav321074210#321074210#0(0"0(0#0#54"/Users/cameronjohnson/Documents/SleepTracker/Robby.wav8621566400#476"    cd /Users/cameronjohnson/Documents/SleepTracker    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/cameronjohnson/Documents/SleepTracker/Robby.wav /Users/cameronjohnson/Documents/SleepTracker/build/Debug-iphoneos/SleepTracker.app0#
+
+CCpResource build/Debug-iphoneos/SleepTracker.app/missionimpossible.wav missionimpossible.wav
+s320901576.973149
+e320901577.002006
+r1
+xCpResource
+xbuild/Debug-iphoneos/SleepTracker.app/missionimpossible.wav
+xmissionimpossible.wav
+lSLF07#2@26"Copy missionimpossible.wav320901576#320901577#0(0"0(0#0#66"/Users/cameronjohnson/Documents/SleepTracker/missionimpossible.wav8605025504#488"    cd /Users/cameronjohnson/Documents/SleepTracker    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/cameronjohnson/Documents/SleepTracker/missionimpossible.wav /Users/cameronjohnson/Documents/SleepTracker/build/Debug-iphoneos/SleepTracker.app0#
+
+CCreateUniversalBinary /Users/cameronjohnson/Documents/SleepTracker/build/Debug-iphoneos/SleepTracker.app/SleepTracker normal "armv6 armv7"
+s321668299.327229
+e321668299.333490
+r1
+xCreateUniversalBinary
+x/Users/cameronjohnson/Documents/SleepTracker/build/Debug-iphoneos/SleepTracker.app/SleepTracker
+xnormal
+xarmv6 armv7
+lSLF07#2@93"CreateUniversalBinary build/Debug-iphoneos/SleepTracker.app/SleepTracker normal "armv6 armv7"321668299#321668299#0(0"0(0#0#56"/Users/cameronjohnson/Documents/SleepTracker/armv6 armv78608708032#582"    cd /Users/cameronjohnson/Documents/SleepTracker    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/lipo -create /Users/cameronjohnson/Documents/SleepTracker/build/SleepTracker.build/Debug-iphoneos/SleepTracker.build/Objects-normal/armv6/SleepTracker /Users/cameronjohnson/Documents/SleepTracker/build/SleepTracker.build/Debug-iphoneos/SleepTracker.build/Objects-normal/armv7/SleepTracker -output /Users/cameronjohnson/Documents/SleepTracker/build/Debug-iphoneos/SleepTracker.app/SleepTracker0#
+
+CDataModelCompile /Users/cameronjohnson/Documents/SleepTracker/build/Debug-iphoneos/SleepTracker.app/SleepTrackTimes.mom /Users/cameronjohnson/Documents/SleepTracker/Classes/SleepTrackTimes.xcdatamodel
+s321518674.453946
+e321518674.513126
+r1
+xDataModelCompile
+x/Users/cameronjohnson/Documents/SleepTracker/build/Debug-iphoneos/SleepTracker.app/SleepTrackTimes.mom
+x/Users/cameronjohnson/Documents/SleepTracker/Classes/SleepTrackTimes.xcdatamodel
+lSLF07#2@88"Compile /Users/cameronjohnson/Documents/SleepTracker/Classes/SleepTrackTimes.xcdatamodel321518674#321518674#0(0"0(0#0#80"/Users/cameronjohnson/Documents/SleepTracker/Classes/SleepTrackTimes.xcdatamodel8604243392#388"    cd /Users/cameronjohnson/Documents/SleepTracker    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/momc /Users/cameronjohnson/Documents/SleepTracker/Classes/SleepTrackTimes.xcdatamodel /Users/cameronjohnson/Documents/SleepTracker/build/Debug-iphoneos/SleepTracker.app/SleepTrackTimes.mom0#
+
+CGenerateDSYMFile /Users/cameronjohnson/Documents/SleepTracker/build/Debug-iphoneos/SleepTracker.app.dSYM /Users/cameronjohnson/Documents/SleepTracker/build/Debug-iphoneos/SleepTracker.app/SleepTracker
+s321668299.333586
+e321668299.436099
+r1
+xGenerateDSYMFile
+x/Users/cameronjohnson/Documents/SleepTracker/build/Debug-iphoneos/SleepTracker.app.dSYM
+x/Users/cameronjohnson/Documents/SleepTracker/build/Debug-iphoneos/SleepTracker.app/SleepTracker
+lSLF07#2@110"GenerateDSYMFile build/Debug-iphoneos/SleepTracker.app.dSYM build/Debug-iphoneos/SleepTracker.app/SleepTracker321668299#321668299#0(0"0(0#0#95"/Users/cameronjohnson/Documents/SleepTracker/build/Debug-iphoneos/SleepTracker.app/SleepTracker8608786464#395"    cd /Users/cameronjohnson/Documents/SleepTracker    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/cameronjohnson/Documents/SleepTracker/build/Debug-iphoneos/SleepTracker.app/SleepTracker -o /Users/cameronjohnson/Documents/SleepTracker/build/Debug-iphoneos/SleepTracker.app.dSYM0#
+
+CLd /Users/cameronjohnson/Documents/SleepTracker/build/SleepTracker.build/Debug-iphoneos/SleepTracker.build/Objects-normal/armv6/SleepTracker normal armv6
+s321668298.878690
+e321668299.283815
+r1
+xLd
+x/Users/cameronjohnson/Documents/SleepTracker/build/SleepTracker.build/Debug-iphoneos/SleepTracker.build/Objects-normal/armv6/SleepTracker
+xnormal
+xarmv6
+lSLF07#2@142"Link /Users/cameronjohnson/Documents/SleepTracker/build/SleepTracker.build/Debug-iphoneos/SleepTracker.build/Objects-normal/armv6/SleepTracker321668298#321668299#0(0"0(0#0#0"8614832736#986"    cd /Users/cameronjohnson/Documents/SleepTracker    setenv IPHONEOS_DEPLOYMENT_TARGET 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv6 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -L/Users/cameronjohnson/Documents/SleepTracker/build/Debug-iphoneos -F/Users/cameronjohnson/Documents/SleepTracker/build/Debug-iphoneos -filelist /Users/cameronjohnson/Documents/SleepTracker/build/SleepTracker.build/Debug-iphoneos/SleepTracker.build/Objects-normal/armv6/SleepTracker.LinkFileList -dead_strip -miphoneos-version-min=4.2 -framework Foundation -framework UIKit -framework CoreGraphics -framework MediaPlayer -framework AudioToolbox -framework CoreData -o /Users/cameronjohnson/Documents/SleepTracker/build/SleepTracker.build/Debug-iphoneos/SleepTracker.build/Objects-normal/armv6/SleepTracker0#
+
+CLd /Users/cameronjohnson/Documents/SleepTracker/build/SleepTracker.build/Debug-iphoneos/SleepTracker.build/Objects-normal/armv7/SleepTracker normal armv7
+s321668298.930956
+e321668299.327106
+r1
+xLd
+x/Users/cameronjohnson/Documents/SleepTracker/build/SleepTracker.build/Debug-iphoneos/SleepTracker.build/Objects-normal/armv7/SleepTracker
+xnormal
+xarmv7
+lSLF07#2@142"Link /Users/cameronjohnson/Documents/SleepTracker/build/SleepTracker.build/Debug-iphoneos/SleepTracker.build/Objects-normal/armv7/SleepTracker321668298#321668299#0(0"0(0#0#0"8616375520#986"    cd /Users/cameronjohnson/Documents/SleepTracker    setenv IPHONEOS_DEPLOYMENT_TARGET 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv7 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -L/Users/cameronjohnson/Documents/SleepTracker/build/Debug-iphoneos -F/Users/cameronjohnson/Documents/SleepTracker/build/Debug-iphoneos -filelist /Users/cameronjohnson/Documents/SleepTracker/build/SleepTracker.build/Debug-iphoneos/SleepTracker.build/Objects-normal/armv7/SleepTracker.LinkFileList -dead_strip -miphoneos-version-min=4.2 -framework Foundation -framework UIKit -framework CoreGraphics -framework MediaPlayer -framework AudioToolbox -framework CoreData -o /Users/cameronjohnson/Documents/SleepTracker/build/SleepTracker.build/Debug-iphoneos/SleepTracker.build/Objects-normal/armv7/SleepTracker0#
+
+CPhaseScriptExecution "Run Script" /Users/cameronjohnson/Documents/SleepTracker/build/SleepTracker.build/Debug-iphoneos/SleepTracker.build/Script-1F2AD4AD130E12B50054B48A.sh
+s319691682.144161
+e319691682.160879
+r1
+xPhaseScriptExecution
+xRun Script
+x/Users/cameronjohnson/Documents/SleepTracker/build/SleepTracker.build/Debug-iphoneos/SleepTracker.build/Script-1F2AD4AD130E12B50054B48A.sh
+lSLF07#2@36"Run custom shell script 'Run Script'319691682#319691682#0(0"0(0#0#0"14918379927240756#18088"    cd /Users/cameronjohnson/Documents/SleepTracker    setenv ACTION build    setenv AD_HOC_CODE_SIGNING_ALLOWED NO    setenv ALTERNATE_GROUP staff    setenv ALTERNATE_MODE u+w,go-w,a+rX    setenv ALTERNATE_OWNER cameronjohnson    setenv ALWAYS_SEARCH_USER_PATHS NO    setenv APPLE_INTERNAL_DEVELOPER_DIR /AppleInternal/Developer    setenv APPLE_INTERNAL_DIR /AppleInternal    setenv APPLE_INTERNAL_DOCUMENTATION_DIR /AppleInternal/Documentation    setenv APPLE_INTERNAL_LIBRARY_DIR /AppleInternal/Library    setenv APPLE_INTERNAL_TOOLS /AppleInternal/Developer/Tools    setenv APPLY_RULES_IN_COPY_FILES NO    setenv ARCHS "armv6 armv7"    setenv ARCHS_STANDARD_32_64_BIT "armv6 armv7"    setenv ARCHS_STANDARD_32_BIT "armv6 armv7"    setenv ARCHS_UNIVERSAL_IPHONE_OS armv7    setenv BUILD_COMPONENTS "headers build"    setenv BUILD_DIR /Users/cameronjohnson/Documents/SleepTracker/build    setenv BUILD_ROOT /Users/cameronjohnson/Documents/SleepTracker/build    setenv BUILD_STYLE Debug    setenv BUILD_VARIANTS normal    setenv BUILT_PRODUCTS_DIR /Users/cameronjohnson/Documents/SleepTracker/build/Debug-iphoneos    setenv CACHE_ROOT /var/folders/6z/6zIRSci5GweBfOveU7JNHU+++TI/-Caches-/com.apple.Xcode.501    setenv CCHROOT /var/folders/6z/6zIRSci5GweBfOveU7JNHU+++TI/-Caches-/com.apple.Xcode.501    setenv CHMOD /bin/chmod    setenv CHOWN /usr/sbin/chown    setenv CLASS_FILE_DIR /Users/cameronjohnson/Documents/SleepTracker/build/SleepTracker.build/Debug-iphoneos/SleepTracker.build/JavaClasses    setenv CLEAN_PRECOMPS YES    setenv CLONE_HEADERS NO    setenv CODESIGNING_FOLDER_PATH /Users/cameronjohnson/Documents/SleepTracker/build/Debug-iphoneos/SleepTracker.app    setenv CODE_SIGNING_ALLOWED YES    setenv CODE_SIGNING_REQUIRED NO    setenv CODE_SIGN_CONTEXT_CLASS XCCodeSignContext    setenv CODE_SIGN_IDENTITY "iPhone Developer"    setenv COMMAND_MODE legacy    setenv COMPOSITE_SDK_DIRS /var/folders/6z/6zIRSci5GweBfOveU7JNHU+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs    setenv COMPRESS_PNG_FILES YES    setenv CONFIGURATION Debug    setenv CONFIGURATION_BUILD_DIR /Users/cameronjohnson/Documents/SleepTracker/build/Debug-iphoneos    setenv CONFIGURATION_TEMP_DIR /Users/cameronjohnson/Documents/SleepTracker/build/SleepTracker.build/Debug-iphoneos    setenv CONTENTS_FOLDER_PATH SleepTracker.app    setenv COPYING_PRESERVES_HFS_DATA NO    setenv COPY_PHASE_STRIP NO    setenv COPY_RESOURCES_FROM_STATIC_FRAMEWORKS YES    setenv CP /bin/cp    setenv CURRENT_ARCH armv7    setenv CURRENT_VARIANT normal    setenv DEAD_CODE_STRIPPING YES    setenv DEBUGGING_SYMBOLS YES    setenv DEBUG_INFORMATION_FORMAT dwarf-with-dsym    setenv DEPLOYMENT_LOCATION NO    setenv DEPLOYMENT_POSTPROCESSING NO    setenv DERIVED_FILES_DIR /Users/cameronjohnson/Documents/SleepTracker/build/SleepTracker.build/Debug-iphoneos/SleepTracker.build/DerivedSources    setenv DERIVED_FILE_DIR /Users/cameronjohnson/Documents/SleepTracker/build/SleepTracker.build/Debug-iphoneos/SleepTracker.build/DerivedSources    setenv DERIVED_SOURCES_DIR /Users/cameronjohnson/Documents/SleepTracker/build/SleepTracker.build/Debug-iphoneos/SleepTracker.build/DerivedSources    setenv DEVELOPER_APPLICATIONS_DIR /Developer/Applications    setenv DEVELOPER_BIN_DIR /Developer/usr/bin    setenv DEVELOPER_DIR /Developer    setenv DEVELOPER_FRAMEWORKS_DIR /Developer/Library/Frameworks    setenv DEVELOPER_FRAMEWORKS_DIR_QUOTED "\"/Developer/Library/Frameworks\""    setenv DEVELOPER_LIBRARY_DIR /Developer/Library    setenv DEVELOPER_SDK_DIR /Developer/SDKs    setenv DEVELOPER_TOOLS_DIR /Developer/Tools    setenv DEVELOPER_USR_DIR /Developer/usr    setenv DEVELOPMENT_LANGUAGE English    setenv DOCUMENTATION_FOLDER_PATH SleepTracker.app/English.lproj/Documentation    setenv DO_HEADER_SCANNING_IN_JAM NO    setenv DSTROOT /tmp/SleepTracker.dst    setenv DWARF_DSYM_FILE_NAME SleepTracker.app.dSYM    setenv DWARF_DSYM_FOLDER_PATH /Users/cameronjohnson/Documents/SleepTracker/build/Debug-iphoneos    setenv EFFECTIVE_PLATFORM_NAME -iphoneos    setenv EMBEDDED_PROFILE_NAME embedded.mobileprovision    setenv ENABLE_HEADER_DEPENDENCIES YES    setenv ENABLE_OPENMP_SUPPORT NO    setenv ENTITLEMENTS_ALLOWED YES    setenv ENTITLEMENTS_REQUIRED NO    setenv EXCLUDED_INSTALLSRC_SUBDIRECTORY_PATTERNS ".svn .git CVS"    setenv EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES "*.nib *.lproj *.framework *.gch (*) CVS .svn .git *.xcodeproj *.xcode *.pbproj *.pbxproj"    setenv EXECUTABLES_FOLDER_PATH SleepTracker.app/Executables    setenv EXECUTABLE_FOLDER_PATH SleepTracker.app    setenv EXECUTABLE_NAME SleepTracker    setenv EXECUTABLE_PATH SleepTracker.app/SleepTracker    setenv FILE_LIST /Users/cameronjohnson/Documents/SleepTracker/build/SleepTracker.build/Debug-iphoneos/SleepTracker.build/Objects/LinkFileList    setenv FIXED_FILES_DIR /Users/cameronjohnson/Documents/SleepTracker/build/SleepTracker.build/Debug-iphoneos/SleepTracker.build/FixedFiles    setenv FRAMEWORKS_FOLDER_PATH SleepTracker.app/Frameworks    setenv FRAMEWORK_FLAG_PREFIX -framework    setenv FRAMEWORK_SEARCH_PATHS "\"/Users/cameronjohnson/Documents/SleepTracker/build/Debug-iphoneos\" "    setenv FRAMEWORK_VERSION A    setenv FULL_PRODUCT_NAME SleepTracker.app    setenv GCC3_VERSION 3.3    setenv GCC_C_LANGUAGE_STANDARD c99    setenv GCC_DYNAMIC_NO_PIC NO    setenv GCC_INLINES_ARE_PRIVATE_EXTERN YES    setenv GCC_OPTIMIZATION_LEVEL 0    setenv GCC_PFE_FILE_C_DIALECTS "c objective-c c++ objective-c++"    setenv GCC_PRECOMPILE_PREFIX_HEADER YES    setenv GCC_PREFIX_HEADER SleepTracker_Prefix.pch    setenv GCC_SYMBOLS_PRIVATE_EXTERN YES    setenv GCC_THUMB_SUPPORT YES    setenv GCC_TREAT_WARNINGS_AS_ERRORS NO    setenv GCC_VERSION 4.2    setenv GCC_VERSION_IDENTIFIER __2    setenv GCC_WARN_ABOUT_RETURN_TYPE YES    setenv GCC_WARN_UNUSED_VARIABLE YES    setenv GENERATE_MASTER_OBJECT_FILE NO    setenv GENERATE_PKGINFO_FILE YES    setenv GENERATE_PROFILING_CODE NO    setenv GID 20    setenv GROUP staff    setenv HEADERMAP_INCLUDES_FLAT_ENTRIES_FOR_TARGET_BEING_BUILT YES    setenv HEADERMAP_INCLUDES_FRAMEWORK_ENTRIES_FOR_ALL_PRODUCT_TYPES YES    setenv HEADERMAP_INCLUDES_NONPUBLIC_NONPRIVATE_HEADERS YES    setenv HEADERMAP_INCLUDES_PROJECT_HEADERS YES    setenv HEADER_SEARCH_PATHS "\"/Users/cameronjohnson/Documents/SleepTracker/build/Debug-iphoneos/include\" "    setenv ICONV /usr/bin/iconv    setenv INFOPLIST_EXPAND_BUILD_SETTINGS YES    setenv INFOPLIST_FILE SleepTracker-Info.plist    setenv INFOPLIST_OUTPUT_FORMAT binary    setenv INFOPLIST_PATH SleepTracker.app/Info.plist    setenv INFOPLIST_PREPROCESS NO    setenv INFOSTRINGS_PATH SleepTracker.app/English.lproj/InfoPlist.strings    setenv INSTALL_DIR /tmp/SleepTracker.dst/Users/cameronjohnson/Applications    setenv INSTALL_GROUP staff    setenv INSTALL_MODE_FLAG u+w,go-w,a+rX    setenv INSTALL_OWNER cameronjohnson    setenv INSTALL_PATH /Users/cameronjohnson/Applications    setenv INSTALL_ROOT /tmp/SleepTracker.dst    setenv IPHONEOS_DEPLOYMENT_TARGET 4.2    setenv JAVAC_DEFAULT_FLAGS "-J-Xms64m -J-XX:NewSize=4M -J-Dfile.encoding=UTF8"    setenv JAVA_APP_STUB /System/Library/Frameworks/JavaVM.framework/Resources/MacOS/JavaApplicationStub    setenv JAVA_ARCHIVE_CLASSES YES    setenv JAVA_ARCHIVE_TYPE JAR    setenv JAVA_COMPILER /usr/bin/javac    setenv JAVA_FOLDER_PATH SleepTracker.app/Java    setenv JAVA_FRAMEWORK_RESOURCES_DIRS Resources    setenv JAVA_JAR_FLAGS cv    setenv JAVA_SOURCE_SUBDIR .    setenv JAVA_USE_DEPENDENCIES YES    setenv JAVA_ZIP_FLAGS -urg    setenv JIKES_DEFAULT_FLAGS "+E +OLDCSO"    setenv KEEP_PRIVATE_EXTERNS NO    setenv LD_GENERATE_MAP_FILE NO    setenv LD_MAP_FILE_PATH /Users/cameronjohnson/Documents/SleepTracker/build/SleepTracker.build/Debug-iphoneos/SleepTracker.build/SleepTracker-LinkMap-normal-armv7.txt    setenv LD_OPENMP_FLAGS -fopenmp    setenv LEX /Developer/usr/bin/lex    setenv LIBRARY_FLAG_NOSPACE YES    setenv LIBRARY_FLAG_PREFIX -l    setenv LIBRARY_SEARCH_PATHS "\"/Users/cameronjohnson/Documents/SleepTracker/build/Debug-iphoneos\" "    setenv LINKER_DISPLAYS_MANGLED_NAMES NO    setenv LINK_FILE_LIST_normal_armv6 /Users/cameronjohnson/Documents/SleepTracker/build/SleepTracker.build/Debug-iphoneos/SleepTracker.build/Objects-normal/armv6/SleepTracker.LinkFileList    setenv LINK_FILE_LIST_normal_armv7 /Users/cameronjohnson/Documents/SleepTracker/build/SleepTracker.build/Debug-iphoneos/SleepTracker.build/Objects-normal/armv7/SleepTracker.LinkFileList    setenv LINK_WITH_STANDARD_LIBRARIES YES    setenv LOCALIZED_RESOURCES_FOLDER_PATH SleepTracker.app/English.lproj    setenv LOCAL_ADMIN_APPS_DIR /Applications/Utilities    setenv LOCAL_APPS_DIR /Applications    setenv LOCAL_DEVELOPER_DIR /Library/Developer    setenv LOCAL_LIBRARY_DIR /Library    setenv MACH_O_TYPE mh_execute    setenv MAC_OS_X_VERSION_ACTUAL 1066    setenv MAC_OS_X_VERSION_MAJOR 1060    setenv MAC_OS_X_VERSION_MINOR 0606    setenv NATIVE_ARCH i386    setenv NATIVE_ARCH_32_BIT i386    setenv NATIVE_ARCH_64_BIT x86_64    setenv NATIVE_ARCH_ACTUAL x86_64    setenv NO_COMMON YES    setenv OBJECT_FILE_DIR /Users/cameronjohnson/Documents/SleepTracker/build/SleepTracker.build/Debug-iphoneos/SleepTracker.build/Objects    setenv OBJECT_FILE_DIR_normal /Users/cameronjohnson/Documents/SleepTracker/build/SleepTracker.build/Debug-iphoneos/SleepTracker.build/Objects-normal    setenv OBJROOT /Users/cameronjohnson/Documents/SleepTracker/build    setenv ONLY_ACTIVE_ARCH NO    setenv OPTIMIZATION_LEVEL 0    setenv OS MACOS    setenv OSAC /usr/bin/osacompile    setenv PACKAGE_TYPE com.apple.package-type.wrapper.application    setenv PASCAL_STRINGS YES    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv PATH_PREFIXES_EXCLUDED_FROM_HEADER_DEPENDENCIES "/usr/include /usr/local/include /System/Library/Frameworks /System/Library/PrivateFrameworks /Developer/Headers /Developer/SDKs /Developer/Platforms"    setenv PBDEVELOPMENTPLIST_PATH SleepTracker.app/pbdevelopment.plist    setenv PFE_FILE_C_DIALECTS objective-c    setenv PKGINFO_FILE_PATH /Users/cameronjohnson/Documents/SleepTracker/build/SleepTracker.build/Debug-iphoneos/SleepTracker.build/PkgInfo    setenv PKGINFO_PATH SleepTracker.app/PkgInfo    setenv PLATFORM_DEVELOPER_APPLICATIONS_DIR /Developer/Platforms/iPhoneOS.platform/Developer/Applications    setenv PLATFORM_DEVELOPER_BIN_DIR /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin    setenv PLATFORM_DEVELOPER_LIBRARY_DIR /Developer/Platforms/iPhoneOS.platform/Developer/Library    setenv PLATFORM_DEVELOPER_SDK_DIR /Developer/Platforms/iPhoneOS.platform/Developer/SDKs    setenv PLATFORM_DEVELOPER_TOOLS_DIR /Developer/Platforms/iPhoneOS.platform/Developer/Tools    setenv PLATFORM_DEVELOPER_USR_DIR /Developer/Platforms/iPhoneOS.platform/Developer/usr    setenv PLATFORM_DIR /Developer/Platforms/iPhoneOS.platform    setenv PLATFORM_NAME iphoneos    setenv PLATFORM_PRODUCT_BUILD_VERSION 8C134    setenv PLIST_FILE_OUTPUT_FORMAT binary    setenv PLUGINS_FOLDER_PATH SleepTracker.app/PlugIns    setenv PREBINDING NO    setenv PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR YES    setenv PRECOMP_DESTINATION_DIR /Users/cameronjohnson/Documents/SleepTracker/build/SleepTracker.build/Debug-iphoneos/SleepTracker.build/PrefixHeaders    setenv PRESERVE_DEAD_CODE_INITS_AND_TERMS NO    setenv PRIVATE_HEADERS_FOLDER_PATH SleepTracker.app/PrivateHeaders    setenv PRODUCT_NAME SleepTracker    setenv PRODUCT_SETTINGS_PATH /Users/cameronjohnson/Documents/SleepTracker/SleepTracker-Info.plist    setenv PRODUCT_TYPE com.apple.product-type.application    setenv PROFILING_CODE NO    setenv PROJECT SleepTracker    setenv PROJECT_DERIVED_FILE_DIR /Users/cameronjohnson/Documents/SleepTracker/build/SleepTracker.build/DerivedSources    setenv PROJECT_DIR /Users/cameronjohnson/Documents/SleepTracker    setenv PROJECT_FILE_PATH /Users/cameronjohnson/Documents/SleepTracker/SleepTracker.xcodeproj    setenv PROJECT_NAME SleepTracker    setenv PROJECT_TEMP_DIR /Users/cameronjohnson/Documents/SleepTracker/build/SleepTracker.build    setenv PROVISIONING_PROFILE_REQUIRED YES    setenv PUBLIC_HEADERS_FOLDER_PATH SleepTracker.app/Headers    setenv RECURSIVE_SEARCH_PATHS_FOLLOW_SYMLINKS YES    setenv REMOVE_CVS_FROM_RESOURCES YES    setenv REMOVE_GIT_FROM_RESOURCES YES    setenv REMOVE_SVN_FROM_RESOURCES YES    setenv RESOURCE_RULES_REQUIRED YES    setenv REZ_COLLECTOR_DIR /Users/cameronjohnson/Documents/SleepTracker/build/SleepTracker.build/Debug-iphoneos/SleepTracker.build/ResourceManagerResources    setenv REZ_OBJECTS_DIR /Users/cameronjohnson/Documents/SleepTracker/build/SleepTracker.build/Debug-iphoneos/SleepTracker.build/ResourceManagerResources/Objects    setenv REZ_SEARCH_PATHS "\"/Users/cameronjohnson/Documents/SleepTracker/build/Debug-iphoneos\" "    setenv RUN_CLANG_STATIC_ANALYZER NO    setenv SCAN_ALL_SOURCE_FILES_FOR_INCLUDES NO    setenv SCRIPTS_FOLDER_PATH SleepTracker.app/Scripts    setenv SCRIPT_INPUT_FILE_COUNT 0    setenv SCRIPT_OUTPUT_FILE_COUNT 0    setenv SDKROOT /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk    setenv SDK_DIR /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk    setenv SDK_NAME iphoneos4.2    setenv SED /usr/bin/sed    setenv SEPARATE_STRIP NO    setenv SEPARATE_SYMBOL_EDIT NO    setenv SET_DIR_MODE_OWNER_GROUP YES    setenv SET_FILE_MODE_OWNER_GROUP NO    setenv SHALLOW_BUNDLE YES    setenv SHARED_DERIVED_FILE_DIR /Users/cameronjohnson/Documents/SleepTracker/build/Debug-iphoneos/DerivedSources    setenv SHARED_FRAMEWORKS_FOLDER_PATH SleepTracker.app/SharedFrameworks    setenv SHARED_PRECOMPS_DIR /var/folders/6z/6zIRSci5GweBfOveU7JNHU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders    setenv SHARED_SUPPORT_FOLDER_PATH SleepTracker.app/SharedSupport    setenv SKIP_INSTALL YES    setenv SOURCE_ROOT /Users/cameronjohnson/Documents/SleepTracker    setenv SRCROOT /Users/cameronjohnson/Documents/SleepTracker    setenv STANDARD_C_PLUS_PLUS_LIBRARY_TYPE dynamic    setenv STRINGS_FILE_OUTPUT_ENCODING binary    setenv STRIP_INSTALLED_PRODUCT YES    setenv STRIP_STYLE all    setenv SUPPORTED_DEVICE_FAMILIES 1,2    setenv SYMBOL_REPOSITORY_DIR /Users/cameronjohnson/Documents/SleepTracker/build/SleepTracker.build/Debug-iphoneos/SleepTracker.build/SymbolRepositories    setenv SYMROOT /Users/cameronjohnson/Documents/SleepTracker/build    setenv SYSTEM_ADMIN_APPS_DIR /Applications/Utilities    setenv SYSTEM_APPS_DIR /Applications    setenv SYSTEM_CORE_SERVICES_DIR /System/Library/CoreServices    setenv SYSTEM_DEMOS_DIR /Applications/Extras    setenv SYSTEM_DEVELOPER_APPS_DIR /Developer/Applications    setenv SYSTEM_DEVELOPER_BIN_DIR /Developer/usr/bin    setenv SYSTEM_DEVELOPER_DEMOS_DIR "/Developer/Applications/Utilities/Built Examples"    setenv SYSTEM_DEVELOPER_DIR /Developer    setenv SYSTEM_DEVELOPER_DOC_DIR "/Developer/ADC Reference Library"    setenv SYSTEM_DEVELOPER_GRAPHICS_TOOLS_DIR "/Developer/Applications/Graphics Tools"    setenv SYSTEM_DEVELOPER_JAVA_TOOLS_DIR "/Developer/Applications/Java Tools"    setenv SYSTEM_DEVELOPER_PERFORMANCE_TOOLS_DIR "/Developer/Applications/Performance Tools"    setenv SYSTEM_DEVELOPER_RELEASENOTES_DIR "/Developer/ADC Reference Library/releasenotes"    setenv SYSTEM_DEVELOPER_TOOLS /Developer/Tools    setenv SYSTEM_DEVELOPER_TOOLS_DOC_DIR "/Developer/ADC Reference Library/documentation/DeveloperTools"    setenv SYSTEM_DEVELOPER_TOOLS_RELEASENOTES_DIR "/Developer/ADC Reference Library/releasenotes/DeveloperTools"    setenv SYSTEM_DEVELOPER_USR_DIR /Developer/usr    setenv SYSTEM_DEVELOPER_UTILITIES_DIR /Developer/Applications/Utilities    setenv SYSTEM_DOCUMENTATION_DIR /Library/Documentation    setenv SYSTEM_LIBRARY_DIR /System/Library    setenv TARGETED_DEVICE_FAMILY 1    setenv TARGETNAME SleepTracker    setenv TARGET_BUILD_DIR /Users/cameronjohnson/Documents/SleepTracker/build/Debug-iphoneos    setenv TARGET_NAME SleepTracker    setenv TARGET_TEMP_DIR /Users/cameronjohnson/Documents/SleepTracker/build/SleepTracker.build/Debug-iphoneos/SleepTracker.build    setenv TEMP_DIR /Users/cameronjohnson/Documents/SleepTracker/build/SleepTracker.build/Debug-iphoneos/SleepTracker.build    setenv TEMP_FILES_DIR /Users/cameronjohnson/Documents/SleepTracker/build/SleepTracker.build/Debug-iphoneos/SleepTracker.build    setenv TEMP_FILE_DIR /Users/cameronjohnson/Documents/SleepTracker/build/SleepTracker.build/Debug-iphoneos/SleepTracker.build    setenv TEMP_ROOT /Users/cameronjohnson/Documents/SleepTracker/build    setenv UID 501    setenv UNLOCALIZED_RESOURCES_FOLDER_PATH SleepTracker.app    setenv UNSTRIPPED_PRODUCT NO    setenv USER cameronjohnson    setenv USER_APPS_DIR /Users/cameronjohnson/Applications    setenv USER_LIBRARY_DIR /Users/cameronjohnson/Library    setenv USE_DYNAMIC_NO_PIC YES    setenv USE_HEADERMAP YES    setenv USE_HEADER_SYMLINKS NO    setenv VALIDATE_PRODUCT NO    setenv VALID_ARCHS "armv6 armv7"    setenv VERBOSE_PBXCP NO    setenv VERSIONPLIST_PATH SleepTracker.app/version.plist    setenv VERSION_INFO_BUILDER cameronjohnson    setenv VERSION_INFO_FILE SleepTracker_vers.c    setenv VERSION_INFO_STRING "\"@(#)PROGRAM:SleepTracker  PROJECT:SleepTracker-\""    setenv WRAPPER_EXTENSION app    setenv WRAPPER_NAME SleepTracker.app    setenv WRAPPER_SUFFIX .app    setenv XCODE_APP_SUPPORT_DIR /Developer/Library/Xcode    setenv XCODE_PRODUCT_BUILD_VERSION 10M2423    setenv XCODE_VERSION_ACTUAL 0325    setenv XCODE_VERSION_MAJOR 0300    setenv XCODE_VERSION_MINOR 0320    setenv YACC /Developer/usr/bin/yacc    setenv _REAL_SDKROOT iphoneos    /bin/sh -c /Users/cameronjohnson/Documents/SleepTracker/build/SleepTracker.build/Debug-iphoneos/SleepTracker.build/Script-1F2AD4AD130E12B50054B48A.sh0#
+
+CPhaseScriptExecution "Run Script" /Users/cameronjohnson/Documents/SleepTracker/build/SleepTracker.build/Debug-iphoneos/SleepTracker.build/Script-1FD30423130E1B8200FDD5A5.sh
+s321668299.436208
+e321668300.712194
+r1
+xPhaseScriptExecution
+xRun Script
+x/Users/cameronjohnson/Documents/SleepTracker/build/SleepTracker.build/Debug-iphoneos/SleepTracker.build/Script-1FD30423130E1B8200FDD5A5.sh
+lSLF07#2@36"Run custom shell script 'Run Script'321668299#321668300#0(0"0(0#0#0"8614233184#18087"    cd /Users/cameronjohnson/Documents/SleepTracker    setenv ACTION build    setenv AD_HOC_CODE_SIGNING_ALLOWED NO    setenv ALTERNATE_GROUP staff    setenv ALTERNATE_MODE u+w,go-w,a+rX    setenv ALTERNATE_OWNER cameronjohnson    setenv ALWAYS_SEARCH_USER_PATHS NO    setenv APPLE_INTERNAL_DEVELOPER_DIR /AppleInternal/Developer    setenv APPLE_INTERNAL_DIR /AppleInternal    setenv APPLE_INTERNAL_DOCUMENTATION_DIR /AppleInternal/Documentation    setenv APPLE_INTERNAL_LIBRARY_DIR /AppleInternal/Library    setenv APPLE_INTERNAL_TOOLS /AppleInternal/Developer/Tools    setenv APPLY_RULES_IN_COPY_FILES NO    setenv ARCHS "armv6 armv7"    setenv ARCHS_STANDARD_32_64_BIT "armv6 armv7"    setenv ARCHS_STANDARD_32_BIT "armv6 armv7"    setenv ARCHS_UNIVERSAL_IPHONE_OS armv7    setenv BUILD_COMPONENTS "headers build"    setenv BUILD_DIR /Users/cameronjohnson/Documents/SleepTracker/build    setenv BUILD_ROOT /Users/cameronjohnson/Documents/SleepTracker/build    setenv BUILD_STYLE Debug    setenv BUILD_VARIANTS normal    setenv BUILT_PRODUCTS_DIR /Users/cameronjohnson/Documents/SleepTracker/build/Debug-iphoneos    setenv CACHE_ROOT /var/folders/6z/6zIRSci5GweBfOveU7JNHU+++TI/-Caches-/com.apple.Xcode.501    setenv CCHROOT /var/folders/6z/6zIRSci5GweBfOveU7JNHU+++TI/-Caches-/com.apple.Xcode.501    setenv CHMOD /bin/chmod    setenv CHOWN /usr/sbin/chown    setenv CLASS_FILE_DIR /Users/cameronjohnson/Documents/SleepTracker/build/SleepTracker.build/Debug-iphoneos/SleepTracker.build/JavaClasses    setenv CLEAN_PRECOMPS YES    setenv CLONE_HEADERS NO    setenv CODESIGNING_FOLDER_PATH /Users/cameronjohnson/Documents/SleepTracker/build/Debug-iphoneos/SleepTracker.app    setenv CODE_SIGNING_ALLOWED YES    setenv CODE_SIGNING_REQUIRED NO    setenv CODE_SIGN_CONTEXT_CLASS XCCodeSignContext    setenv CODE_SIGN_IDENTITY "Don't Code Sign"    setenv COMMAND_MODE legacy    setenv COMPOSITE_SDK_DIRS /var/folders/6z/6zIRSci5GweBfOveU7JNHU+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs    setenv COMPRESS_PNG_FILES YES    setenv CONFIGURATION Debug    setenv CONFIGURATION_BUILD_DIR /Users/cameronjohnson/Documents/SleepTracker/build/Debug-iphoneos    setenv CONFIGURATION_TEMP_DIR /Users/cameronjohnson/Documents/SleepTracker/build/SleepTracker.build/Debug-iphoneos    setenv CONTENTS_FOLDER_PATH SleepTracker.app    setenv COPYING_PRESERVES_HFS_DATA NO    setenv COPY_PHASE_STRIP NO    setenv COPY_RESOURCES_FROM_STATIC_FRAMEWORKS YES    setenv CP /bin/cp    setenv CURRENT_ARCH armv7    setenv CURRENT_VARIANT normal    setenv DEAD_CODE_STRIPPING YES    setenv DEBUGGING_SYMBOLS YES    setenv DEBUG_INFORMATION_FORMAT dwarf-with-dsym    setenv DEPLOYMENT_LOCATION NO    setenv DEPLOYMENT_POSTPROCESSING NO    setenv DERIVED_FILES_DIR /Users/cameronjohnson/Documents/SleepTracker/build/SleepTracker.build/Debug-iphoneos/SleepTracker.build/DerivedSources    setenv DERIVED_FILE_DIR /Users/cameronjohnson/Documents/SleepTracker/build/SleepTracker.build/Debug-iphoneos/SleepTracker.build/DerivedSources    setenv DERIVED_SOURCES_DIR /Users/cameronjohnson/Documents/SleepTracker/build/SleepTracker.build/Debug-iphoneos/SleepTracker.build/DerivedSources    setenv DEVELOPER_APPLICATIONS_DIR /Developer/Applications    setenv DEVELOPER_BIN_DIR /Developer/usr/bin    setenv DEVELOPER_DIR /Developer    setenv DEVELOPER_FRAMEWORKS_DIR /Developer/Library/Frameworks    setenv DEVELOPER_FRAMEWORKS_DIR_QUOTED "\"/Developer/Library/Frameworks\""    setenv DEVELOPER_LIBRARY_DIR /Developer/Library    setenv DEVELOPER_SDK_DIR /Developer/SDKs    setenv DEVELOPER_TOOLS_DIR /Developer/Tools    setenv DEVELOPER_USR_DIR /Developer/usr    setenv DEVELOPMENT_LANGUAGE English    setenv DOCUMENTATION_FOLDER_PATH SleepTracker.app/English.lproj/Documentation    setenv DO_HEADER_SCANNING_IN_JAM NO    setenv DSTROOT /tmp/SleepTracker.dst    setenv DWARF_DSYM_FILE_NAME SleepTracker.app.dSYM    setenv DWARF_DSYM_FOLDER_PATH /Users/cameronjohnson/Documents/SleepTracker/build/Debug-iphoneos    setenv EFFECTIVE_PLATFORM_NAME -iphoneos    setenv EMBEDDED_PROFILE_NAME embedded.mobileprovision    setenv ENABLE_HEADER_DEPENDENCIES YES    setenv ENABLE_OPENMP_SUPPORT NO    setenv ENTITLEMENTS_ALLOWED YES    setenv ENTITLEMENTS_REQUIRED NO    setenv EXCLUDED_INSTALLSRC_SUBDIRECTORY_PATTERNS ".svn .git CVS"    setenv EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES "*.nib *.lproj *.framework *.gch (*) CVS .svn .git *.xcodeproj *.xcode *.pbproj *.pbxproj"    setenv EXECUTABLES_FOLDER_PATH SleepTracker.app/Executables    setenv EXECUTABLE_FOLDER_PATH SleepTracker.app    setenv EXECUTABLE_NAME SleepTracker    setenv EXECUTABLE_PATH SleepTracker.app/SleepTracker    setenv FILE_LIST /Users/cameronjohnson/Documents/SleepTracker/build/SleepTracker.build/Debug-iphoneos/SleepTracker.build/Objects/LinkFileList    setenv FIXED_FILES_DIR /Users/cameronjohnson/Documents/SleepTracker/build/SleepTracker.build/Debug-iphoneos/SleepTracker.build/FixedFiles    setenv FRAMEWORKS_FOLDER_PATH SleepTracker.app/Frameworks    setenv FRAMEWORK_FLAG_PREFIX -framework    setenv FRAMEWORK_SEARCH_PATHS "\"/Users/cameronjohnson/Documents/SleepTracker/build/Debug-iphoneos\" "    setenv FRAMEWORK_VERSION A    setenv FULL_PRODUCT_NAME SleepTracker.app    setenv GCC3_VERSION 3.3    setenv GCC_C_LANGUAGE_STANDARD c99    setenv GCC_DYNAMIC_NO_PIC NO    setenv GCC_INLINES_ARE_PRIVATE_EXTERN YES    setenv GCC_OPTIMIZATION_LEVEL 0    setenv GCC_PFE_FILE_C_DIALECTS "c objective-c c++ objective-c++"    setenv GCC_PRECOMPILE_PREFIX_HEADER YES    setenv GCC_PREFIX_HEADER SleepTracker_Prefix.pch    setenv GCC_SYMBOLS_PRIVATE_EXTERN YES    setenv GCC_THUMB_SUPPORT YES    setenv GCC_TREAT_WARNINGS_AS_ERRORS NO    setenv GCC_VERSION 4.2    setenv GCC_VERSION_IDENTIFIER __2    setenv GCC_WARN_ABOUT_RETURN_TYPE YES    setenv GCC_WARN_UNUSED_VARIABLE YES    setenv GENERATE_MASTER_OBJECT_FILE NO    setenv GENERATE_PKGINFO_FILE YES    setenv GENERATE_PROFILING_CODE NO    setenv GID 20    setenv GROUP staff    setenv HEADERMAP_INCLUDES_FLAT_ENTRIES_FOR_TARGET_BEING_BUILT YES    setenv HEADERMAP_INCLUDES_FRAMEWORK_ENTRIES_FOR_ALL_PRODUCT_TYPES YES    setenv HEADERMAP_INCLUDES_NONPUBLIC_NONPRIVATE_HEADERS YES    setenv HEADERMAP_INCLUDES_PROJECT_HEADERS YES    setenv HEADER_SEARCH_PATHS "\"/Users/cameronjohnson/Documents/SleepTracker/build/Debug-iphoneos/include\" "    setenv ICONV /usr/bin/iconv    setenv INFOPLIST_EXPAND_BUILD_SETTINGS YES    setenv INFOPLIST_FILE SleepTracker-Info.plist    setenv INFOPLIST_OUTPUT_FORMAT binary    setenv INFOPLIST_PATH SleepTracker.app/Info.plist    setenv INFOPLIST_PREPROCESS NO    setenv INFOSTRINGS_PATH SleepTracker.app/English.lproj/InfoPlist.strings    setenv INSTALL_DIR /tmp/SleepTracker.dst/Users/cameronjohnson/Applications    setenv INSTALL_GROUP staff    setenv INSTALL_MODE_FLAG u+w,go-w,a+rX    setenv INSTALL_OWNER cameronjohnson    setenv INSTALL_PATH /Users/cameronjohnson/Applications    setenv INSTALL_ROOT /tmp/SleepTracker.dst    setenv IPHONEOS_DEPLOYMENT_TARGET 4.2    setenv JAVAC_DEFAULT_FLAGS "-J-Xms64m -J-XX:NewSize=4M -J-Dfile.encoding=UTF8"    setenv JAVA_APP_STUB /System/Library/Frameworks/JavaVM.framework/Resources/MacOS/JavaApplicationStub    setenv JAVA_ARCHIVE_CLASSES YES    setenv JAVA_ARCHIVE_TYPE JAR    setenv JAVA_COMPILER /usr/bin/javac    setenv JAVA_FOLDER_PATH SleepTracker.app/Java    setenv JAVA_FRAMEWORK_RESOURCES_DIRS Resources    setenv JAVA_JAR_FLAGS cv    setenv JAVA_SOURCE_SUBDIR .    setenv JAVA_USE_DEPENDENCIES YES    setenv JAVA_ZIP_FLAGS -urg    setenv JIKES_DEFAULT_FLAGS "+E +OLDCSO"    setenv KEEP_PRIVATE_EXTERNS NO    setenv LD_GENERATE_MAP_FILE NO    setenv LD_MAP_FILE_PATH /Users/cameronjohnson/Documents/SleepTracker/build/SleepTracker.build/Debug-iphoneos/SleepTracker.build/SleepTracker-LinkMap-normal-armv7.txt    setenv LD_OPENMP_FLAGS -fopenmp    setenv LEX /Developer/usr/bin/lex    setenv LIBRARY_FLAG_NOSPACE YES    setenv LIBRARY_FLAG_PREFIX -l    setenv LIBRARY_SEARCH_PATHS "\"/Users/cameronjohnson/Documents/SleepTracker/build/Debug-iphoneos\" "    setenv LINKER_DISPLAYS_MANGLED_NAMES NO    setenv LINK_FILE_LIST_normal_armv6 /Users/cameronjohnson/Documents/SleepTracker/build/SleepTracker.build/Debug-iphoneos/SleepTracker.build/Objects-normal/armv6/SleepTracker.LinkFileList    setenv LINK_FILE_LIST_normal_armv7 /Users/cameronjohnson/Documents/SleepTracker/build/SleepTracker.build/Debug-iphoneos/SleepTracker.build/Objects-normal/armv7/SleepTracker.LinkFileList    setenv LINK_WITH_STANDARD_LIBRARIES YES    setenv LOCALIZED_RESOURCES_FOLDER_PATH SleepTracker.app/English.lproj    setenv LOCAL_ADMIN_APPS_DIR /Applications/Utilities    setenv LOCAL_APPS_DIR /Applications    setenv LOCAL_DEVELOPER_DIR /Library/Developer    setenv LOCAL_LIBRARY_DIR /Library    setenv MACH_O_TYPE mh_execute    setenv MAC_OS_X_VERSION_ACTUAL 1066    setenv MAC_OS_X_VERSION_MAJOR 1060    setenv MAC_OS_X_VERSION_MINOR 0606    setenv NATIVE_ARCH i386    setenv NATIVE_ARCH_32_BIT i386    setenv NATIVE_ARCH_64_BIT x86_64    setenv NATIVE_ARCH_ACTUAL x86_64    setenv NO_COMMON YES    setenv OBJECT_FILE_DIR /Users/cameronjohnson/Documents/SleepTracker/build/SleepTracker.build/Debug-iphoneos/SleepTracker.build/Objects    setenv OBJECT_FILE_DIR_normal /Users/cameronjohnson/Documents/SleepTracker/build/SleepTracker.build/Debug-iphoneos/SleepTracker.build/Objects-normal    setenv OBJROOT /Users/cameronjohnson/Documents/SleepTracker/build    setenv ONLY_ACTIVE_ARCH NO    setenv OPTIMIZATION_LEVEL 0    setenv OS MACOS    setenv OSAC /usr/bin/osacompile    setenv PACKAGE_TYPE com.apple.package-type.wrapper.application    setenv PASCAL_STRINGS YES    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv PATH_PREFIXES_EXCLUDED_FROM_HEADER_DEPENDENCIES "/usr/include /usr/local/include /System/Library/Frameworks /System/Library/PrivateFrameworks /Developer/Headers /Developer/SDKs /Developer/Platforms"    setenv PBDEVELOPMENTPLIST_PATH SleepTracker.app/pbdevelopment.plist    setenv PFE_FILE_C_DIALECTS objective-c    setenv PKGINFO_FILE_PATH /Users/cameronjohnson/Documents/SleepTracker/build/SleepTracker.build/Debug-iphoneos/SleepTracker.build/PkgInfo    setenv PKGINFO_PATH SleepTracker.app/PkgInfo    setenv PLATFORM_DEVELOPER_APPLICATIONS_DIR /Developer/Platforms/iPhoneOS.platform/Developer/Applications    setenv PLATFORM_DEVELOPER_BIN_DIR /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin    setenv PLATFORM_DEVELOPER_LIBRARY_DIR /Developer/Platforms/iPhoneOS.platform/Developer/Library    setenv PLATFORM_DEVELOPER_SDK_DIR /Developer/Platforms/iPhoneOS.platform/Developer/SDKs    setenv PLATFORM_DEVELOPER_TOOLS_DIR /Developer/Platforms/iPhoneOS.platform/Developer/Tools    setenv PLATFORM_DEVELOPER_USR_DIR /Developer/Platforms/iPhoneOS.platform/Developer/usr    setenv PLATFORM_DIR /Developer/Platforms/iPhoneOS.platform    setenv PLATFORM_NAME iphoneos    setenv PLATFORM_PRODUCT_BUILD_VERSION 8C134    setenv PLIST_FILE_OUTPUT_FORMAT binary    setenv PLUGINS_FOLDER_PATH SleepTracker.app/PlugIns    setenv PREBINDING NO    setenv PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR YES    setenv PRECOMP_DESTINATION_DIR /Users/cameronjohnson/Documents/SleepTracker/build/SleepTracker.build/Debug-iphoneos/SleepTracker.build/PrefixHeaders    setenv PRESERVE_DEAD_CODE_INITS_AND_TERMS NO    setenv PRIVATE_HEADERS_FOLDER_PATH SleepTracker.app/PrivateHeaders    setenv PRODUCT_NAME SleepTracker    setenv PRODUCT_SETTINGS_PATH /Users/cameronjohnson/Documents/SleepTracker/SleepTracker-Info.plist    setenv PRODUCT_TYPE com.apple.product-type.application    setenv PROFILING_CODE NO    setenv PROJECT SleepTracker    setenv PROJECT_DERIVED_FILE_DIR /Users/cameronjohnson/Documents/SleepTracker/build/SleepTracker.build/DerivedSources    setenv PROJECT_DIR /Users/cameronjohnson/Documents/SleepTracker    setenv PROJECT_FILE_PATH /Users/cameronjohnson/Documents/SleepTracker/SleepTracker.xcodeproj    setenv PROJECT_NAME SleepTracker    setenv PROJECT_TEMP_DIR /Users/cameronjohnson/Documents/SleepTracker/build/SleepTracker.build    setenv PROVISIONING_PROFILE_REQUIRED YES    setenv PUBLIC_HEADERS_FOLDER_PATH SleepTracker.app/Headers    setenv RECURSIVE_SEARCH_PATHS_FOLLOW_SYMLINKS YES    setenv REMOVE_CVS_FROM_RESOURCES YES    setenv REMOVE_GIT_FROM_RESOURCES YES    setenv REMOVE_SVN_FROM_RESOURCES YES    setenv RESOURCE_RULES_REQUIRED YES    setenv REZ_COLLECTOR_DIR /Users/cameronjohnson/Documents/SleepTracker/build/SleepTracker.build/Debug-iphoneos/SleepTracker.build/ResourceManagerResources    setenv REZ_OBJECTS_DIR /Users/cameronjohnson/Documents/SleepTracker/build/SleepTracker.build/Debug-iphoneos/SleepTracker.build/ResourceManagerResources/Objects    setenv REZ_SEARCH_PATHS "\"/Users/cameronjohnson/Documents/SleepTracker/build/Debug-iphoneos\" "    setenv RUN_CLANG_STATIC_ANALYZER NO    setenv SCAN_ALL_SOURCE_FILES_FOR_INCLUDES NO    setenv SCRIPTS_FOLDER_PATH SleepTracker.app/Scripts    setenv SCRIPT_INPUT_FILE_COUNT 0    setenv SCRIPT_OUTPUT_FILE_COUNT 0    setenv SDKROOT /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk    setenv SDK_DIR /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk    setenv SDK_NAME iphoneos4.2    setenv SED /usr/bin/sed    setenv SEPARATE_STRIP NO    setenv SEPARATE_SYMBOL_EDIT NO    setenv SET_DIR_MODE_OWNER_GROUP YES    setenv SET_FILE_MODE_OWNER_GROUP NO    setenv SHALLOW_BUNDLE YES    setenv SHARED_DERIVED_FILE_DIR /Users/cameronjohnson/Documents/SleepTracker/build/Debug-iphoneos/DerivedSources    setenv SHARED_FRAMEWORKS_FOLDER_PATH SleepTracker.app/SharedFrameworks    setenv SHARED_PRECOMPS_DIR /var/folders/6z/6zIRSci5GweBfOveU7JNHU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders    setenv SHARED_SUPPORT_FOLDER_PATH SleepTracker.app/SharedSupport    setenv SKIP_INSTALL YES    setenv SOURCE_ROOT /Users/cameronjohnson/Documents/SleepTracker    setenv SRCROOT /Users/cameronjohnson/Documents/SleepTracker    setenv STANDARD_C_PLUS_PLUS_LIBRARY_TYPE dynamic    setenv STRINGS_FILE_OUTPUT_ENCODING binary    setenv STRIP_INSTALLED_PRODUCT YES    setenv STRIP_STYLE all    setenv SUPPORTED_DEVICE_FAMILIES 1,2    setenv SYMBOL_REPOSITORY_DIR /Users/cameronjohnson/Documents/SleepTracker/build/SleepTracker.build/Debug-iphoneos/SleepTracker.build/SymbolRepositories    setenv SYMROOT /Users/cameronjohnson/Documents/SleepTracker/build    setenv SYSTEM_ADMIN_APPS_DIR /Applications/Utilities    setenv SYSTEM_APPS_DIR /Applications    setenv SYSTEM_CORE_SERVICES_DIR /System/Library/CoreServices    setenv SYSTEM_DEMOS_DIR /Applications/Extras    setenv SYSTEM_DEVELOPER_APPS_DIR /Developer/Applications    setenv SYSTEM_DEVELOPER_BIN_DIR /Developer/usr/bin    setenv SYSTEM_DEVELOPER_DEMOS_DIR "/Developer/Applications/Utilities/Built Examples"    setenv SYSTEM_DEVELOPER_DIR /Developer    setenv SYSTEM_DEVELOPER_DOC_DIR "/Developer/ADC Reference Library"    setenv SYSTEM_DEVELOPER_GRAPHICS_TOOLS_DIR "/Developer/Applications/Graphics Tools"    setenv SYSTEM_DEVELOPER_JAVA_TOOLS_DIR "/Developer/Applications/Java Tools"    setenv SYSTEM_DEVELOPER_PERFORMANCE_TOOLS_DIR "/Developer/Applications/Performance Tools"    setenv SYSTEM_DEVELOPER_RELEASENOTES_DIR "/Developer/ADC Reference Library/releasenotes"    setenv SYSTEM_DEVELOPER_TOOLS /Developer/Tools    setenv SYSTEM_DEVELOPER_TOOLS_DOC_DIR "/Developer/ADC Reference Library/documentation/DeveloperTools"    setenv SYSTEM_DEVELOPER_TOOLS_RELEASENOTES_DIR "/Developer/ADC Reference Library/releasenotes/DeveloperTools"    setenv SYSTEM_DEVELOPER_USR_DIR /Developer/usr    setenv SYSTEM_DEVELOPER_UTILITIES_DIR /Developer/Applications/Utilities    setenv SYSTEM_DOCUMENTATION_DIR /Library/Documentation    setenv SYSTEM_LIBRARY_DIR /System/Library    setenv TARGETED_DEVICE_FAMILY 1    setenv TARGETNAME SleepTracker    setenv TARGET_BUILD_DIR /Users/cameronjohnson/Documents/SleepTracker/build/Debug-iphoneos    setenv TARGET_NAME SleepTracker    setenv TARGET_TEMP_DIR /Users/cameronjohnson/Documents/SleepTracker/build/SleepTracker.build/Debug-iphoneos/SleepTracker.build    setenv TEMP_DIR /Users/cameronjohnson/Documents/SleepTracker/build/SleepTracker.build/Debug-iphoneos/SleepTracker.build    setenv TEMP_FILES_DIR /Users/cameronjohnson/Documents/SleepTracker/build/SleepTracker.build/Debug-iphoneos/SleepTracker.build    setenv TEMP_FILE_DIR /Users/cameronjohnson/Documents/SleepTracker/build/SleepTracker.build/Debug-iphoneos/SleepTracker.build    setenv TEMP_ROOT /Users/cameronjohnson/Documents/SleepTracker/build    setenv UID 501    setenv UNLOCALIZED_RESOURCES_FOLDER_PATH SleepTracker.app    setenv UNSTRIPPED_PRODUCT NO    setenv USER cameronjohnson    setenv USER_APPS_DIR /Users/cameronjohnson/Applications    setenv USER_LIBRARY_DIR /Users/cameronjohnson/Library    setenv USE_DYNAMIC_NO_PIC YES    setenv USE_HEADERMAP YES    setenv USE_HEADER_SYMLINKS NO    setenv VALIDATE_PRODUCT NO    setenv VALID_ARCHS "armv6 armv7"    setenv VERBOSE_PBXCP NO    setenv VERSIONPLIST_PATH SleepTracker.app/version.plist    setenv VERSION_INFO_BUILDER cameronjohnson    setenv VERSION_INFO_FILE SleepTracker_vers.c    setenv VERSION_INFO_STRING "\"@(#)PROGRAM:SleepTracker  PROJECT:SleepTracker-\""    setenv WRAPPER_EXTENSION app    setenv WRAPPER_NAME SleepTracker.app    setenv WRAPPER_SUFFIX .app    setenv XCODE_APP_SUPPORT_DIR /Developer/Library/Xcode    setenv XCODE_PRODUCT_BUILD_VERSION 10M2423    setenv XCODE_VERSION_ACTUAL 0325    setenv XCODE_VERSION_MAJOR 0300    setenv XCODE_VERSION_MINOR 0320    setenv YACC /Developer/usr/bin/yacc    setenv _REAL_SDKROOT iphoneos    /bin/sh -c /Users/cameronjohnson/Documents/SleepTracker/build/SleepTracker.build/Debug-iphoneos/SleepTracker.build/Script-1FD30423130E1B8200FDD5A5.sh0#
+
+CProcessInfoPlistFile /Users/cameronjohnson/Documents/SleepTracker/build/Debug-iphoneos/SleepTracker.app/Info.plist SleepTracker-Info.plist
+s319692490.630248
+e319692490.646109
+r1
+xProcessInfoPlistFile
+x/Users/cameronjohnson/Documents/SleepTracker/build/Debug-iphoneos/SleepTracker.app/Info.plist
+xSleepTracker-Info.plist
+lSLF07#2@31"Process SleepTracker-Info.plist319692490#319692490#0(0"0(0#0#68"/Users/cameronjohnson/Documents/SleepTracker/SleepTracker-Info.plist8610001152#484"    cd /Users/cameronjohnson/Documents/SleepTracker    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility SleepTracker-Info.plist -genpkginfo /Users/cameronjohnson/Documents/SleepTracker/build/Debug-iphoneos/SleepTracker.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -o /Users/cameronjohnson/Documents/SleepTracker/build/Debug-iphoneos/SleepTracker.app/Info.plist0#
+
+CProcessPCH /var/folders/6z/6zIRSci5GweBfOveU7JNHU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SleepTracker_Prefix-bxvhiwxnbwykqwbztdejehsldjji/SleepTracker_Prefix.pch.gch SleepTracker_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+s319689474.330571
+e319689475.456806
+r1
+xProcessPCH
+x/var/folders/6z/6zIRSci5GweBfOveU7JNHU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SleepTracker_Prefix-bxvhiwxnbwykqwbztdejehsldjji/SleepTracker_Prefix.pch.gch
+xSleepTracker_Prefix.pch
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@34"Precompile SleepTracker_Prefix.pch319689474#319689475#0(0"0(0#0#68"/Users/cameronjohnson/Documents/SleepTracker/SleepTracker_Prefix.pch8601593600#1777"    cd /Users/cameronjohnson/Documents/SleepTracker    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/cameronjohnson/Documents/SleepTracker/build/SleepTracker.build/Debug-iphoneos/SleepTracker.build/SleepTracker-generated-files.hmap -I/Users/cameronjohnson/Documents/SleepTracker/build/SleepTracker.build/Debug-iphoneos/SleepTracker.build/SleepTracker-own-target-headers.hmap -I/Users/cameronjohnson/Documents/SleepTracker/build/SleepTracker.build/Debug-iphoneos/SleepTracker.build/SleepTracker-all-target-headers.hmap -iquote /Users/cameronjohnson/Documents/SleepTracker/build/SleepTracker.build/Debug-iphoneos/SleepTracker.build/SleepTracker-project-headers.hmap -F/Users/cameronjohnson/Documents/SleepTracker/build/Debug-iphoneos -I/Users/cameronjohnson/Documents/SleepTracker/build/Debug-iphoneos/include -I/Users/cameronjohnson/Documents/SleepTracker/build/SleepTracker.build/Debug-iphoneos/SleepTracker.build/DerivedSources/armv7 -I/Users/cameronjohnson/Documents/SleepTracker/build/SleepTracker.build/Debug-iphoneos/SleepTracker.build/DerivedSources -c /Users/cameronjohnson/Documents/SleepTracker/SleepTracker_Prefix.pch -o /var/folders/6z/6zIRSci5GweBfOveU7JNHU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SleepTracker_Prefix-bxvhiwxnbwykqwbztdejehsldjji/SleepTracker_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/6z/6zIRSci5GweBfOveU7JNHU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SleepTracker_Prefix-dczsngqynpghlsfrfwcajxghberd/SleepTracker_Prefix.pch.gch SleepTracker_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+s319689474.329609
+e319689475.549342
+r1
+xProcessPCH
+x/var/folders/6z/6zIRSci5GweBfOveU7JNHU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SleepTracker_Prefix-dczsngqynpghlsfrfwcajxghberd/SleepTracker_Prefix.pch.gch
+xSleepTracker_Prefix.pch
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@34"Precompile SleepTracker_Prefix.pch319689474#319689475#0(0"0(0#0#68"/Users/cameronjohnson/Documents/SleepTracker/SleepTracker_Prefix.pch8602611008#1777"    cd /Users/cameronjohnson/Documents/SleepTracker    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/cameronjohnson/Documents/SleepTracker/build/SleepTracker.build/Debug-iphoneos/SleepTracker.build/SleepTracker-generated-files.hmap -I/Users/cameronjohnson/Documents/SleepTracker/build/SleepTracker.build/Debug-iphoneos/SleepTracker.build/SleepTracker-own-target-headers.hmap -I/Users/cameronjohnson/Documents/SleepTracker/build/SleepTracker.build/Debug-iphoneos/SleepTracker.build/SleepTracker-all-target-headers.hmap -iquote /Users/cameronjohnson/Documents/SleepTracker/build/SleepTracker.build/Debug-iphoneos/SleepTracker.build/SleepTracker-project-headers.hmap -F/Users/cameronjohnson/Documents/SleepTracker/build/Debug-iphoneos -I/Users/cameronjohnson/Documents/SleepTracker/build/Debug-iphoneos/include -I/Users/cameronjohnson/Documents/SleepTracker/build/SleepTracker.build/Debug-iphoneos/SleepTracker.build/DerivedSources/armv6 -I/Users/cameronjohnson/Documents/SleepTracker/build/SleepTracker.build/Debug-iphoneos/SleepTracker.build/DerivedSources -c /Users/cameronjohnson/Documents/SleepTracker/SleepTracker_Prefix.pch -o /var/folders/6z/6zIRSci5GweBfOveU7JNHU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SleepTracker_Prefix-dczsngqynpghlsfrfwcajxghberd/SleepTracker_Prefix.pch.gch0#
+
+CTouch /Users/cameronjohnson/Documents/SleepTracker/build/Debug-iphoneos/SleepTracker.app
+s321668300.712344
+e321668300.715449
+r1
+xTouch
+x/Users/cameronjohnson/Documents/SleepTracker/build/Debug-iphoneos/SleepTracker.app
+lSLF07#2@88"Touch /Users/cameronjohnson/Documents/SleepTracker/build/Debug-iphoneos/SleepTracker.app321668300#321668300#0(0"0(0#0#0"8613001376#281"    cd /Users/cameronjohnson/Documents/SleepTracker    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/cameronjohnson/Documents/SleepTracker/build/Debug-iphoneos/SleepTracker.app0#
+

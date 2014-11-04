@@ -1,0 +1,1 @@
+/Users/cameronjohnson/Documents/SleepTracker/Classes/Alarm.m:63: warning: property 'alarmTime' requires method '-alarmTime' to be defined - use @synthesize, @dynamic or provide a method implementation

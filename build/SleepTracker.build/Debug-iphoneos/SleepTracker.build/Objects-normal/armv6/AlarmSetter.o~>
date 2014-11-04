@@ -1,0 +1,5 @@
+/Users/cameronjohnson/Documents/SleepTracker/Classes/AlarmSetter.m: In function '-[AlarmSetter addNewAlarm]':
+/Users/cameronjohnson/Documents/SleepTracker/Classes/AlarmSetter.m:44: warning: 'UIViewController' may not respond to '-setAlarm:'
+/Users/cameronjohnson/Documents/SleepTracker/Classes/AlarmSetter.m:44: warning: (Messages without a matching method signature
+/Users/cameronjohnson/Documents/SleepTracker/Classes/AlarmSetter.m:44: warning: will be assumed to return 'id' and accept
+/Users/cameronjohnson/Documents/SleepTracker/Classes/AlarmSetter.m:44: warning: '...' as arguments.)
